@@ -1,0 +1,79 @@
+TAREA 01
+
+Sergio Amaro Rosas
+
+
+01)¿Qué es una variable de entorno? ¿Para qué se utilizan?
+Son un conjunto de valores que pueden cambiar la configuracion de la computadora
+y se utiliza para cque cualquiera pueda cambiar una opción de configuración para una o más aplicaciones fácilmente.
+
+02)¿Cómo podemos accesar al contenido de las variables de entorno? ¿Existe algún comando que nos imprima todas las que maneja el sistema?
+&NOmbre de la variable, Env 
+
+03)¿Un usuario estándar ve las mismas variables de entorno que un usuario root?
+SI, pero cambian las cuestiones de las rutas de cada variable 
+
+04)¿Cómo se define o edita una variable de entorno? ¿Aplica para todas las sesiones?
+Se define con
+bash: export VARIABLE=Valor
+tcsh: setenv VARIABLE Valor
+
+modificacion se puede hacer de dos maneras una solo modificar para la sesion actual y otra para una sesion permanente
+para la sesion actual solo se tiene que utilizar export o un set y editar la variable, la otra forma es modifica lo que es el
+archivo .bashrc y agregando lo que quieres modificar en la variable de entorno con VARIABLE = VALOR y ademas cargar el archivo 
+despues que es guardarlo
+
+
+05)¿Qué significa BASH? ¿Qué otros shells podemos encontrar en ambientes UNIX?
+Es el interpreste de comandos y otros tipos son
+BASH,SH,DASH,RBASH
+
+06)Menciona algunas variables de entorno que contengan información de BASH.
+PATH, DISPLAY, BASH VERSION, BASH VERINF, groups...etc
+
+07)Explicar brevemente los siguientes comandos:
+a)chown - ¿cómo se asigna privilegios a un usuario, a un grupo o ambos?
+
+Es un comando que permite cambiar los permisos de acceso de un archivo según un modo dado.
+Se pueden aplicar diferentes permisos al dueño del fichero, al grupo al que el fichero pertenece y al resto de usuarios.
+La asignacion de privilegios se hace por medio de
+$ chown [opcion] [owner][:group] archivo donde en owner y group se le asignan el propetario
+
+b)chmod - ¿cómo se asigna permiso de lectura, escritura o ejecución? ¿Qué diferencia hay entre modo octal y modo normal?
+Es un comando que permite cambiar los accesos o privilegios(leer, escribir, ejecucion) que se encuentran fuera de home
+entonces la forma de hacer esta modificacion es
+$ chmod [opcion][mode] archivo
+donde mode es la opcion de lectura, escritura o ejecucion
+
+08)¿Qué entendemos por un servidor y un servidor de aplicación? Menciona algunos ejemplos de ambos.
+Un servidor es un software que te permite proveer servicios a otras computadoras.
+Ejemplos:
+Apache, Jigsaw, Zeus, BEAWeblogic
+
+Servido de aplicacion es el software que te permite proveer servicios de aplicaciones y tiene un mejor manejo de
+
+Alta disponibilidad hace referencia a que un sistema debe estar funcionando las 24 horas del día los 365 días al año. Para poder alcanzar esta característica es necesario el uso de técnicas de balanceo de carga y de recuperación ante fallos (failover).
+
+Escalabilidad es la capacidad de hacer crecer un sistema cuando se incrementa la carga de trabajo (el número de peticiones). Cada máquina tiene una capacidad finita de recursos y por lo tanto sólo puede servir un número limitado de peticiones. Si, por ejemplo, tenemos una tienda que incrementa la demanda de servicio, debemos ser capaces de incorporar nuevas máquinas para dar servicio.
+
+Mantenimiento tiene que ver con la versatilidad a la hora de actualizar, depurar fallos y mantener un sistema. La solución al mantenimiento es la construcción de la lógica de negocio en unidades reusables y modulares.
+
+Ejemplos
+IBM WebSphere, Oracle IAS, HP Bluestone
+
+09)¿Qué entendemos por un API? Menciona unos 10 ejemplos, y una breve explicación sobre lo que trata cada uno.
+Es una interfaz de programacion de interfaces que contiene ciertas funciones y procedimietosque facilitan el intercambio de datos entre aplicaciones
+
+10)¿Qué es JSON? ¿Para qué se utiliza? Menciona un breve ejemplo, utilizando al típico objeto 'empleado' (nombre, edad, sueldo, etc.).
+Es un formato ligero de intercambio de datos donde se trata de una forma almacenar información de forma organizada y de fácil acceso.
+
+var nombre;
+var edad;
+var sueldo;
+
+function empleado(){
+	nombre = "Sergio"
+	edad = "45"
+	sueldo = "$15000"
+}
+
