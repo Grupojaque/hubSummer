@@ -1,14 +1,16 @@
-TAREA 01
+Tarea 1
 
 Sergio Amaro Rosas
 
 
 01)¿Qué es una variable de entorno? ¿Para qué se utilizan?
 Son un conjunto de valores que pueden cambiar la configuracion de la computadora
-y se utiliza para cque cualquiera pueda cambiar una opción de configuración para una o más aplicaciones fácilmente.
+y se utiliza para que cualquiera pueda cambiar una opción de configuración para una o más aplicaciones fácilmente.
 
 02)¿Cómo podemos accesar al contenido de las variables de entorno? ¿Existe algún comando que nos imprima todas las que maneja el sistema?
-&NOmbre de la variable, Env 
+Se pueden acceder para modificacion o solo contenido si es por modificacion tiene que abrir el archivo ~./bashrc y si es para solo que nos muestre
+su valor es echo $Nombre_variable, y uno de los comandos que encontre para que imprima las variables de entorno que maneja el
+sistema es env 
 
 03)¿Un usuario estándar ve las mismas variables de entorno que un usuario root?
 SI, pero cambian las cuestiones de las rutas de cada variable 
@@ -62,10 +64,49 @@ Ejemplos
 IBM WebSphere, Oracle IAS, HP Bluestone
 
 09)¿Qué entendemos por un API? Menciona unos 10 ejemplos, y una breve explicación sobre lo que trata cada uno.
-Es una interfaz de programacion de interfaces que contiene ciertas funciones y procedimietosque facilitan el intercambio de datos entre aplicaciones
-
+Es una interfaz de programacion de interfaces que contiene ciertas funciones y procedimietosque facilitan el intercambio de datos entre aplicaciones.
+Ejemplos
+-API JAVA 7
+     Este es un api del lenguaje java que ayuda entender objetos que podamos utilizar para un mejor rendimiento y facilitacion de java, como usar un
+     objeto ya creado, que funciones tiene y como se puede usar.
+-API PYTHON/C
+     Este api es nos ayuda a entender como podemos usar modulos y funciones que python ya tiene predeterminados para facilitarnos ciertas
+     funciones
+-API ANDROID
+     Este api nos sirve para hacer aplicaciones en el sistema android que nos ayuda a decir que funciones tiene predeterminadas para el buen uso de ello
+-API Facebook
+     Sirve para darnos ciertos datos para registrar automaticamente usuarios en otros sitios web, dandonos la posibilidad de registrarse y
+     loguearse con sus propias cuentas 
+-API Google Maps
+     Atravéz de su acceso nos permite ponerle datos e información útil sobre mapas, y presentarlos con ciertas busquedas o funciones
+     personalizadas desde nuestra propia aplicación
+-API Paypal
+     Nos permite hacer operaciones de pagos electrónicos usando nuestro propio sistema web, sin necesidad
+     de acceder/operar en la web de paypal
+-API Twitter
+     Ha permitido el desarrollo de un gran número de sistemas alternativos y servicios web que operan a través de su API
+-API UPS/DHL(operadoras logísticas internacionales) 
+     Brindan acceso a sus sistemas desde APIs, para permitirles a los sitios de comercio electrónico poder 
+     calcular el costo de envío de los productos vendidos según ciertos parámetros
+-API Visual Basic
+     Esta API nos brinda la informacion en el desarrollo de aplicaciones web para windows como declarar funcinciones y como usarlas
+-API You Tube
+     Ofrece acceso libre a partes clave del repositorio de vídeos de YouTube y a la comunidad de usuarios a través de una API de datos de Google (“GData”).
+-API Flickr
+     Lugar donde tienes todas tus imagenes y poderlas compartir con el mundo, una gran idea que puedes integrar en tu aplicación y ayuda también la 
+     recuperacion de imagenes
+-API Del.icio.us
+     es un servicio de gestión de marcadores sociales en web. Permite agregar los marcadores que clásicamente se guardaban en los navegadores y categorizarlos
+     con un sistema de etiquetado denominado folcsonomías (tags). Pero no sólo puede almacenar sitios webs, sino que también permite compartirlos con otros 
+     usuarios de del.icio.us y determinar cuántos tienen un determinado enlace guardado en sus marcadores. 
+-API Feedburner
+     FeedBurner es una empresa que ofrece un servicio de gestion de RSS, aloja y republica fuentes de sindicación, nos permite obtener estadisticas de visitas y 
+     suscriptos a nuestros feeds, sin duda una de las APIs más interesantes desde el punto de vista de un blogger.
+         
 10)¿Qué es JSON? ¿Para qué se utiliza? Menciona un breve ejemplo, utilizando al típico objeto 'empleado' (nombre, edad, sueldo, etc.).
 Es un formato ligero de intercambio de datos donde se trata de una forma almacenar información de forma organizada y de fácil acceso.
+
+ejemplos:
 
 var nombre;
 var edad;
