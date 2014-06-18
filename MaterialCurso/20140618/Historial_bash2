@@ -1,0 +1,161 @@
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ vim Historial_bash 
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ sublime Historial_bash &
+[4] 7015
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+Historial_bash  MACR  md5  practica01  tarea02  usuarios  usuarios1  usuarios2
+[4]+  Done                    sublime Historial_bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+Historial_bash  MACR  md5  practica01  tarea02  usuarios  usuarios1  usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l
+total 100
+-rw-r--r-- 1 krv krv 77717 jun 18 14:43 Historial_bash
+drwxr-xr-x 2 krv krv  4096 jun 18 12:48 MACR
+-rw-r--r-- 1 krv krv    12 jun 18 13:04 md5
+-rw-r--r-- 1 krv krv     0 jun 18 13:04 practica01
+-rw-r--r-- 1 krv krv    11 jun 18 13:04 tarea02
+-rw-r--r-- 1 krv krv  2168 jun 18 13:04 usuarios
+-rw-r--r-- 1 krv krv   303 jun 18 13:04 usuarios1
+-rw-r--r-- 1 krv krv   656 jun 18 13:04 usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ rm usuarios
+usuarios   usuarios1  usuarios2  
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ rm usuarios1
+^[[Akrv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ rm usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l
+total 92
+-rw-r--r-- 1 krv krv 77717 jun 18 14:43 Historial_bash
+drwxr-xr-x 2 krv krv  4096 jun 18 12:48 MACR
+-rw-r--r-- 1 krv krv    12 jun 18 13:04 md5
+-rw-r--r-- 1 krv krv     0 jun 18 13:04 practica01
+-rw-r--r-- 1 krv krv    11 jun 18 13:04 tarea02
+-rw-r--r-- 1 krv krv  2168 jun 18 13:04 usuarios
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mkdir ../../../
+.git/         HERRAMIENTAS/ Tarea01/      TAREAS/       
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mkdir ../../../MaterialCurso
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mv 
+Historial_bash  MACR/           md5             practica01      tarea02         usuarios        
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mkdir 20140618
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mv Historial_bash md5 practica01 usuarios 20140618/
+ls -krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l
+total 12
+drwxr-xr-x 2 krv krv 4096 jun 18 14:45 20140618
+drwxr-xr-x 2 krv krv 4096 jun 18 12:48 MACR
+-rw-r--r-- 1 krv krv   11 jun 18 13:04 tarea02
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mv 20140618/ ../../../MaterialCurso/
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git branch 
+  MACR
+* master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cd ../../../
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ ls
+HERRAMIENTAS  MaterialCurso  README.md  Tarea01  TAREAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    TAREAS/CURSO_LINUX/Practica/md5
+#	deleted:    TAREAS/CURSO_LINUX/Practica/practica01
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios1
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios2
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	HERRAMIENTAS/
+#	MaterialCurso/
+no changes added to commit (use "git add" and/or "git commit -a")
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git add 
+HERRAMIENTAS/  MaterialCurso/ TAREAS/        
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git add HERRAMIENTAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git add MaterialCurso
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git add TAREAS
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'TAREAS/CURSO_LINUX/Practica/md5' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   HERRAMIENTAS/2.1.00.txt
+#	new file:   MaterialCurso/20140618/Historial_bash
+#	new file:   MaterialCurso/20140618/md5
+#	new file:   MaterialCurso/20140618/practica01
+#	new file:   MaterialCurso/20140618/usuarios
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    TAREAS/CURSO_LINUX/Practica/md5
+#	deleted:    TAREAS/CURSO_LINUX/Practica/practica01
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios1
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios2
+#
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'TAREAS/CURSO_LINUX/Practica/md5' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git pull
+remote: Counting objects: 31, done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 23 (delta 5), reused 22 (delta 4)
+Unpacking objects: 100% (23/23), done.
+From github.com:Grupojaque/hubSummer
+   95c570e..961e852  master     -> origin/master
+ * [new branch]      SGM        -> origin/SGM
+Updating 95c570e..961e852
+Fast-forward
+ TAREAS/lista | 1 +
+ 1 file changed, 1 insertion(+)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   HERRAMIENTAS/2.1.00.txt
+#	new file:   MaterialCurso/20140618/Historial_bash
+#	new file:   MaterialCurso/20140618/md5
+#	new file:   MaterialCurso/20140618/practica01
+#	new file:   MaterialCurso/20140618/usuarios
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    TAREAS/CURSO_LINUX/Practica/md5
+#	deleted:    TAREAS/CURSO_LINUX/Practica/practica01
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios1
+#	deleted:    TAREAS/CURSO_LINUX/Practica/usuarios2
+#
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ git commit -a
+[master 3efefbc] Se mejora la estructura de los directorios.
+ 7 files changed, 9906 insertions(+), 129 deletions(-)
+ create mode 100644 HERRAMIENTAS/2.1.00.txt
+ create mode 100644 MaterialCurso/20140618/Historial_bash
+ rename {TAREAS/CURSO_LINUX/Practica => MaterialCurso/20140618}/md5 (100%)
+ rename {TAREAS/CURSO_LINUX/Practica => MaterialCurso/20140618}/practica01 (100%)
+ rename {TAREAS/CURSO_LINUX/Practica => MaterialCurso/20140618}/usuarios (100%)
+ delete mode 100644 TAREAS/CURSO_LINUX/Practica/usuarios1
+ delete mode 100644 TAREAS/CURSO_LINUX/Practica/usuarios2
