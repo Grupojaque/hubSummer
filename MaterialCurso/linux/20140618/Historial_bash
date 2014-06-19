@@ -1,0 +1,1916 @@
+krv@krva:~$ cd /etc
+krv@krva:/etc$ ls -l
+total 1384
+drwxr-xr-x 3 root root     4096 oct 29  2013 acpi
+-rw-r--r-- 1 root root     2981 abr 24  2013 adduser.conf
+-rw-r--r-- 1 root root       10 sep  2  2013 adjtime
+drwxr-xr-x 2 root root    12288 may 12 12:22 alternatives
+-rw-r--r-- 1 root root      401 dic 20  2012 anacrontab
+-rw-r--r-- 1 root root      112 oct  1  2012 apg.conf
+drwxr-xr-x 6 root root     4096 abr 24  2013 apm
+drwxr-xr-x 3 root root     4096 ene  6 11:19 apparmor
+drwxr-xr-x 8 root root     4096 may  3 17:42 apparmor.d
+drwxr-xr-x 5 root root     4096 ene  6 11:18 apport
+drwxr-xr-x 6 root root     4096 may  3 17:08 apt
+-rw-r----- 1 root daemon    144 abr  9  2013 at.deny
+drwxr-xr-x 2 root root     4096 nov 14  2013 at-spi2
+drwxr-xr-x 3 root root     4096 ene  6 11:18 avahi
+drwxr-xr-x 2 root root     4096 oct 14  2013 ax25
+-rw-r--r-- 1 root root     2177 mar 30  2013 bash.bashrc
+-rw-r--r-- 1 root root       45 jun 17  2012 bash_completion
+drwxr-xr-x 2 root root     4096 may 20 21:30 bash_completion.d
+-rw-r--r-- 1 root root      356 ene  1  2012 bindresvport.blacklist
+-rw-r--r-- 1 root root      321 feb  4  2013 blkid.conf
+lrwxrwxrwx 1 root root       15 jun 12  2013 blkid.tab -> /dev/.blkid.tab
+drwxr-xr-x 2 root root     4096 abr 24  2013 bluetooth
+drwxr-xr-x 2 root root     4096 oct 29  2013 bonobo-activation
+-rw-r--r-- 1 root root       33 abr 24  2013 brlapi.key
+drwxr-xr-x 2 root root    24576 oct 29  2013 brltty
+-rw-r--r-- 1 root root    21917 jun 18  2013 brltty.conf
+drwxr-xr-x 3 root root     4096 abr 24  2013 ca-certificates
+-rw-r--r-- 1 root root     7694 abr  8 19:45 ca-certificates.conf
+-rw-r--r-- 1 root root     7201 oct 29  2013 ca-certificates.conf.dpkg-old
+drwxr-xr-x 2 root root     4096 oct 29  2013 calendar
+drwxr-s--- 2 root dip      4096 abr 24  2013 chatscripts
+-rw-r--r-- 1 root root     1332 ago  5  2013 colord.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 ConsoleKit
+drwxr-xr-x 2 root root     4096 abr 24  2013 console-setup
+drwxr-xr-x 4 root root     4096 dic  7  2013 couchdb
+drwxr-xr-x 2 root root     4096 oct 29  2013 cracklib
+drwxr-xr-x 2 root root     4096 abr  8 19:45 cron.d
+drwxr-xr-x 2 root root     4096 may  3 17:34 cron.daily
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.hourly
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.monthly
+-rw-r--r-- 1 root root      722 feb  9  2013 crontab
+drwxr-xr-x 2 root root     4096 ene  6 11:17 cron.weekly
+-rw-r--r-- 1 root root       63 sep  2  2013 crypttab
+drwxr-xr-x 5 root lp       4096 jun 18 12:02 cups
+drwxr-xr-x 2 root root     4096 ene 29 10:22 cupshelpers
+drwxr-xr-x 4 root root     4096 oct 29  2013 dbus-1
+drwxr-xr-x 4 root root     4096 abr 24  2013 dconf
+-rw-r--r-- 1 root root     2969 ene  8  2013 debconf.conf
+-rw-r--r-- 1 root root       11 oct 27  2012 debian_version
+drwxr-xr-x 2 root root     4096 may 20 21:30 default
+-rw-r--r-- 1 root root      604 oct 28  2012 deluser.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 depmod.d
+drwxr-xr-x 4 root root     4096 oct 29  2013 dhcp
+drwxr-xr-x 3 root root     4096 abr 24  2013 dhcp3
+drwxr-xr-x 2 root root     4096 sep  2  2013 dictionaries-common
+drwxr-xr-x 3 root root     4096 abr 17 17:59 dkms
+drwxr-xr-x 2 root root     4096 oct 29  2013 dnsmasq.d
+drwxr-xr-x 3 root root     4096 abr 24  2013 doc-base
+drwxr-xr-x 4 root root     4096 may  3 17:42 dpkg
+-rw-r--r-- 1 root root     3095 oct 10  2013 drirc
+drwxr-xr-x 3 root root     4096 nov 15  2013 emacs
+drwxr-xr-x 3 root root     4096 nov 15  2013 emacs24
+-rw-r--r-- 1 root root       96 abr 24  2013 environment
+drwxr-xr-x 3 root root     4096 may  3 17:42 firefox
+drwxr-xr-x 4 root root     4096 oct 29  2013 fonts
+drwxr-xr-x 3 root root     4096 abr 24  2013 foomatic
+-rw-r--r-- 1 root root      749 sep  2  2013 fstab
+drwxr-xr-x 2 root root     4096 feb  4  2013 fstab.d
+-rw-r----- 1 root fuse      280 may 24  2013 fuse.conf
+-rw-r--r-- 1 root root     2584 oct 10  2012 gai.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 gconf
+drwxr-xr-x 2 root root     4096 oct 29  2013 gdb
+drwxr-xr-x 6 root root     4096 oct 29  2013 gdm
+drwxr-xr-x 4 root root     4096 abr 24  2013 ghostscript
+drwxr-xr-x 3 root root     4096 nov  7  2013 gimp
+drwxr-xr-x 2 root root     4096 ene  6 11:19 gnome
+drwxr-xr-x 2 root root     4096 oct 29  2013 gnome-app-install
+drwxr-xr-x 3 root root     4096 abr 24  2013 gnome-settings-daemon
+drwxr-xr-x 3 root root     4096 abr 24  2013 gnome-vfs-2.0
+drwxr-xr-x 2 root root     4096 oct 29  2013 groff
+-rw-r--r-- 1 root root     1136 dic 18 20:57 group
+-rw------- 1 root root     1120 dic 18 20:57 group-
+drwxr-xr-x 2 root root     4096 nov 14  2013 grub.d
+-rw-r----- 1 root shadow    960 dic 18 20:57 gshadow
+-rw------- 1 root root      944 dic 18 20:57 gshadow-
+drwxr-xr-x 2 root root     4096 oct 29  2013 gtk-2.0
+drwxr-xr-x 2 root root     4096 ene  6 11:16 gtk-3.0
+-rw-r--r-- 1 root root     4781 dic  3  2012 hdparm.conf
+-rw-r--r-- 1 root root       92 oct 27  2012 host.conf
+-rw-r--r-- 1 root root        5 sep  2  2013 hostname
+-rw-r--r-- 1 root root      237 sep  2  2013 hosts
+-rw-r--r-- 1 root root      580 abr 24  2013 hosts.allow
+-rw-r--r-- 1 root root      880 abr 24  2013 hosts.deny
+drwxr-xr-x 3 root root     4096 abr 24  2013 hotplug
+drwxr-xr-x 2 root root     4096 ene 29 10:22 hp
+drwxr-xr-x 3 root root     4096 abr 24  2013 ifplugd
+drwxr-xr-x 2 root root     4096 mar 10 12:59 ImageMagick
+-rw-r--r-- 1 root root     1126 oct 29  2013 inetd.conf
+drwxr-xr-x 2 root root    12288 may  3 17:37 init
+drwxr-xr-x 2 root root     4096 may 20 21:30 init.d
+drwxr-xr-x 5 root root     4096 nov 14  2013 initramfs-tools
+-rw-r--r-- 1 root root     1721 nov 14  2012 inputrc
+drwxr-xr-x 3 root root     4096 nov 26  2012 insserv
+-rw-r--r-- 1 root root      771 may 18  2013 insserv.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 insserv.conf.d
+drwxr-xr-x 2 root root     4096 oct 29  2013 iproute2
+-rw-r--r-- 1 root root       20 oct 13  2013 issue
+-rw-r--r-- 1 root root       13 oct 13  2013 issue.net
+drwxr-xr-x 3 root root     4096 oct 29  2013 java
+drwxr-xr-x 5 root root     4096 may  3 17:42 java-7-openjdk
+drwxr-xr-x 2 root root     4096 abr 24  2013 kbd
+drwxr-xr-x 6 root root     4096 abr 17 17:59 kernel
+-rw-r--r-- 1 root root      110 sep  2  2013 kernel-img.conf
+-rw-r--r-- 1 root root     1311 jul 20  2012 kerneloops.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 ldap
+-rw-r--r-- 1 root root   126536 may 20 21:30 ld.so.cache
+-rw-r--r-- 1 root root       34 abr 24  2013 ld.so.conf
+drwxr-xr-x 2 root root     4096 ene 21 18:20 ld.so.conf.d
+-rw-r--r-- 1 root root      267 jul  3  2012 legal
+-rw-r--r-- 1 root root      191 feb 13  2013 libaudit.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 libnl-3
+drwxr-xr-x 2 root root     4096 feb 11  2013 libpaper.d
+drwxr-xr-x 2 root root     4096 ene  6 11:17 libreoffice
+drwxr-xr-x 3 root root     4096 oct 29  2013 lightdm
+-rw-r--r-- 1 root root     1291 mar 18  2013 lintianrc
+-rw-r--r-- 1 root root     2570 ago  5  2010 locale.alias
+-rw-r--r-- 1 root root     1604 mar 14 13:24 localtime
+drwxr-xr-x 4 root root     4096 abr 24  2013 logcheck
+-rw-r--r-- 1 root root    10551 abr 17  2013 login.defs
+-rw-r--r-- 1 root root      599 feb 19  2009 logrotate.conf
+drwxr-xr-x 2 root root     4096 may  3 17:37 logrotate.d
+-rw-r--r-- 1 root root       98 oct 13  2013 lsb-release
+-rw-r--r-- 1 root root    15752 jul 25  2009 ltrace.conf
+drwxr-xr-x 4 root root     4096 oct 29  2013 lvm
+-rw-r--r-- 1 root root      111 mar  6  2013 magic
+-rw-r--r-- 1 root root      111 mar  6  2013 magic.mime
+drwxr-xr-x 2 root root     4096 abr 24  2013 mail
+-rw-r--r-- 1 root root    51458 may 14 18:27 mailcap
+-rw-r--r-- 1 root root      449 ene  8  2013 mailcap.order
+-rw-r--r-- 1 root root     5173 dic 16  2012 manpath.config
+-rw-r--r-- 1 root root    23922 may 13  2013 mime.types
+-rw-r--r-- 1 root root      956 ene  2  2013 mke2fs.conf
+drwxr-xr-x 2 root root     4096 abr 17 17:59 modprobe.d
+-rw-r--r-- 1 root root      260 sep  2  2013 modules
+-rw-r--r-- 1 root root     2143 ago 29  2013 mongodb.conf
+drwxr-xr-x 5 root root     4096 feb 12 11:00 mono
+-rw-r--r-- 1 root root     1037 jun 18 12:01 mtab
+-rw------- 1 root krv         0 oct 22  2013 mtab~.16539
+-rw------- 1 root krv         0 sep  2  2013 mtab.fuselock
+-rw-r--r-- 1 root root      624 ago  8  2007 mtools.conf
+drwxr-xr-x 3 root root     4096 abr 25 21:57 mysql
+-rw-r--r-- 1 root root     1911 may  1  2012 nail.rc
+-rw-r--r-- 1 root root     8453 oct  1  2012 nanorc
+-rw-r--r-- 1 root root     2064 nov 23  2006 netscsid.conf
+drwxr-xr-x 7 root root     4096 oct 29  2013 network
+drwxr-xr-x 6 root root     4096 oct 29  2013 NetworkManager
+-rw-r--r-- 1 root root       91 jul  3  2012 networks
+drwxr-xr-x 2 root root     4096 oct 29  2013 newt
+drwxr-xr-x 5 root root     4096 abr  8 19:46 nginx
+-rw-r--r-- 1 root root      524 abr 24  2013 nsswitch.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 obex-data-server
+drwxr-xr-x 2 root root     4096 oct  8  2012 ODBCDataSources
+-rw-r--r-- 1 root root        0 oct  8  2012 odbc.ini
+-rw-r--r-- 1 root root        0 mar 13 14:40 odbcinst.ini
+drwxr-xr-x 2 root root     4096 abr 17 17:59 openafs
+drwxr-xr-x 2 root root     4096 sep  2  2013 openal
+drwxr-xr-x 2 root root     4096 may 20 21:30 openvpn
+drwxr-xr-x 2 root root     4096 abr 24  2013 opt
+-rw-r--r-- 1 root root      242 oct 13  2013 os-release
+-rw-r--r-- 1 root root      552 mar 11  2013 pam.conf
+drwxr-xr-x 2 root root     4096 may  3 17:37 pam.d
+-rw-r--r-- 1 root root        7 sep  2  2013 papersize
+-rw-r--r-- 1 root root     2168 dic 18 20:58 passwd
+-rw------- 1 root root     2168 dic 18 20:57 passwd-
+drwxr-xr-x 2 root root     4096 abr 24  2013 pcmcia
+drwxr-xr-x 2 root root     4096 abr  8 19:46 pear
+drwxr-xr-x 4 root root     4096 abr 24  2013 perl
+drwxr-xr-x 4 root root     4096 mar 10 14:37 php5
+drwxr-xr-x 3 root root     4096 abr 24  2013 pkcs11
+drwxr-xr-x 5 root root     4096 abr 24  2013 pm
+-rw-r--r-- 1 root root     7649 oct 29  2013 pnm2ppa.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 polkit-1
+-rw-r--r-- 1 root root      350 sep  2  2013 popularity-contest.conf
+drwxr-xr-x 8 root root     4096 abr 24  2013 ppp
+lrwxrwxrwx 1 root root       22 may  3 17:37 printcap -> /var/run/cups/printcap
+-rw-r--r-- 1 root root      665 oct 27  2012 profile
+drwxr-xr-x 2 root root     4096 oct 29  2013 profile.d
+-rw-r--r-- 1 root root     2932 may  7  2013 protocols
+drwxr-xr-x 2 root root     4096 oct 29  2013 pulse
+drwxr-xr-x 2 root root     4096 feb 15 09:29 purple
+drwxr-xr-x 2 root root     4096 abr 24  2013 python
+drwxr-xr-x 2 root root     4096 mar 10 12:59 python2.7
+drwxr-xr-x 2 root root     4096 abr 24  2013 python3
+drwxr-xr-x 2 root root     4096 mar 10 12:58 python3.3
+drwxr-xr-x 2 root root     4096 oct 29  2013 R
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc0.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc1.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc2.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc3.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc4.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc5.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc6.d
+-rwxr-xr-x 1 root root      306 abr 24  2013 rc.local
+drwxr-xr-x 2 root root     4096 oct 29  2013 rcS.d
+drwxr-xr-x 5 root root     4096 abr 24  2013 resolvconf
+lrwxrwxrwx 1 root root       29 sep  2  2013 resolv.conf -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x 1 root root      268 abr  4  2013 rmt
+-rw-r--r-- 1 root root      887 jul  3  2012 rpc
+-rw-r--r-- 1 root root     1245 abr 18  2013 rsyslog.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 rsyslog.d
+drwxr-xr-x 2 root root     4096 abr  8 19:45 samba
+drwxr-xr-x 3 root root     4096 oct 29  2013 sane.d
+-rw-r--r-- 1 root root     4038 abr 17  2013 securetty
+drwxr-xr-x 3 root root     4096 oct 29  2013 security
+drwxr-xr-x 2 root root     4096 oct 29  2013 selinux
+-rw-r--r-- 1 root root    10344 nov 13  2012 sensors3.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 sensors.d
+-rw-r--r-- 1 root root    19436 may  7  2013 services
+drwxr-xr-x 3 root root     4096 mar 13 14:40 sgml
+-rw-r----- 1 root shadow   1796 jun 11 12:39 shadow
+-rw------- 1 root root     1691 dic 18 20:57 shadow-
+-rw-r--r-- 1 root root       73 abr 24  2013 shells
+-rw-r--r-- 1 root root      956 sep 18  2013 signond.conf
+drwxr-xr-x 3 root root     4096 abr 24  2013 signon-ui
+drwxr-xr-x 2 root root     4096 oct 29  2013 skel
+-rw-r--r-- 1 root root     1132 feb 25  2013 smi.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 snmp
+drwxr-xr-x 3 root root     4096 abr 24  2013 sound
+drwxr-xr-x 3 root root     4096 oct 29  2013 spamassassin
+drwxr-xr-x 4 root root     4096 oct 29  2013 speech-dispatcher
+drwxr-xr-x 2 root root     4096 abr  8 19:45 ssh
+drwxr-xr-x 4 root root     4096 abr  8 19:45 ssl
+-rw-r--r-- 1 root root      143 dic 18 20:57 subgid
+-rw------- 1 root root      114 dic  7  2013 subgid-
+-rw-r--r-- 1 root root      143 dic 18 20:57 subuid
+-rw------- 1 root root      114 dic  7  2013 subuid-
+drwxr-xr-x 2 root root     4096 oct 29  2013 subversion
+-r--r----- 1 root root      872 dic 18 21:00 sudoers
+drwxr-xr-x 2 root root     4096 mar 14 13:24 sudoers.d
+-rw------- 1 root root      763 sep  3  2013 sudoers.tmp.save
+-rw-r--r-- 1 root root     2083 nov 15  2011 sysctl.conf
+drwxr-xr-x 2 root root     4096 mar 13 14:40 sysctl.d
+drwxr-xr-x 3 root root     4096 abr  8 19:45 systemd
+drwxr-xr-x 2 root root     4096 oct 29  2013 terminfo
+-rw-r--r-- 1 root root       20 mar 14 13:24 timezone
+drwxr-xr-x 2 root root     4096 sep  2  2013 timidity
+-rw-r--r-- 1 root root      645 may  1  2012 ts.conf
+-rw-r--r-- 1 root root     1260 may 30  2008 ucf.conf
+drwxr-xr-x 4 root root     4096 abr  8 19:45 udev
+drwxr-xr-x 2 root root     4096 mar 26  2013 udisks2
+drwxr-xr-x 3 root root     4096 oct 29  2013 ufw
+-rw-r--r-- 1 root root      321 jun 20  2013 updatedb.conf
+drwxr-xr-x 3 root root     4096 abr 25 21:57 update-manager
+drwxr-xr-x 2 root root     4096 abr 25 21:57 update-motd.d
+drwxr-xr-x 2 root root     4096 abr 17  2013 update-notifier
+drwxr-xr-x 2 root root     4096 oct 29  2013 UPower
+-rw-r--r-- 1 root root      222 oct  9  2013 upstart-xsessions
+-rw-r--r-- 1 root root      572 oct  8  2012 usb_modeswitch.conf
+drwxr-xr-x 2 root root     4096 dic  8  2012 usb_modeswitch.d
+drwxr-xr-x 2 root root     4096 sep  6  2013 vbox
+drwxr-xr-x 2 root root     4096 oct 29  2013 vim
+drwxr-xr-x 3 root root     4096 sep  9  2013 vlc
+lrwxrwxrwx 1 root root       23 sep  2  2013 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root     4496 nov  7  2012 wgetrc
+drwxr-xr-x 2 root root     4096 oct 29  2013 wildmidi
+drwxr-xr-x 2 root root     4096 oct 29  2013 wireshark
+-rw-r--r-- 1 root root     1343 ene  9  2007 wodim.conf
+drwxr-xr-x 2 root root     4096 ene  6 11:19 wpa_supplicant
+drwxr-xr-x 9 root root     4096 oct 29  2013 X11
+drwxr-xr-x 5 root root     4096 ene  6 11:17 xdg
+drwxr-xr-x 2 root root     4096 mar 13 14:40 xml
+drwxr-xr-x 2 root root     4096 oct 29  2013 xul-ext
+drwxr-xr-x 5 root root     4096 oct 29  2013 yum
+-rw-r--r-- 1 root root      349 feb 26  2013 zsh_command_not_found
+krv@krva:/etc$ less /etc/p
+pam.conf                 pkcs11/                  protocols
+pam.d/                   pm/                      pulse/
+papersize                pnm2ppa.conf             purple/
+passwd                   polkit-1/                python/
+passwd-                  popularity-contest.conf  python2.7/
+pcmcia/                  ppp/                     python3/
+pear/                    printcap                 python3.3/
+perl/                    profile                  
+php5/                    profile.d/               
+krv@krva:/etc$ less /etc/p
+pam.conf                 pkcs11/                  protocols
+pam.d/                   pm/                      pulse/
+papersize                pnm2ppa.conf             purple/
+passwd                   polkit-1/                python/
+passwd-                  popularity-contest.conf  python2.7/
+pcmcia/                  ppp/                     python3/
+pear/                    printcap                 python3.3/
+perl/                    profile                  
+php5/                    profile.d/               
+krv@krva:/etc$ less /etc/passwd
+krv@krva:/etc$ clear
+
+krv@krva:/etc$ more ./passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+krv@krva:/etc$ clear
+
+krv@krva:/etc$ passwd
+Changing password for krv.
+(current) UNIX password: 
+passwd: Authentication token manipulation error
+passwd: password unchanged
+krv@krva:/etc$ ls -l /etc | less
+krv@krva:/etc$ ls -l /etc | more
+total 1384
+drwxr-xr-x 3 root root     4096 oct 29  2013 acpi
+-rw-r--r-- 1 root root     2981 abr 24  2013 adduser.conf
+-rw-r--r-- 1 root root       10 sep  2  2013 adjtime
+drwxr-xr-x 2 root root    12288 may 12 12:22 alternatives
+-rw-r--r-- 1 root root      401 dic 20  2012 anacrontab
+-rw-r--r-- 1 root root      112 oct  1  2012 apg.conf
+drwxr-xr-x 6 root root     4096 abr 24  2013 apm
+drwxr-xr-x 3 root root     4096 ene  6 11:19 apparmor
+drwxr-xr-x 8 root root     4096 may  3 17:42 apparmor.d
+drwxr-xr-x 5 root root     4096 ene  6 11:18 apport
+drwxr-xr-x 6 root root     4096 may  3 17:08 apt
+-rw-r----- 1 root daemon    144 abr  9  2013 at.deny
+drwxr-xr-x 2 root root     4096 nov 14  2013 at-spi2
+drwxr-xr-x 3 root root     4096 ene  6 11:18 avahi
+drwxr-xr-x 2 root root     4096 oct 14  2013 ax25
+-rw-r--r-- 1 root root     2177 mar 30  2013 bash.bashrc
+-rw-r--r-- 1 root root       45 jun 17  2012 bash_completion
+drwxr-xr-x 2 root root     4096 may 20 21:30 bash_completion.d
+-rw-r--r-- 1 root root      356 ene  1  2012 bindresvport.blacklist
+-rw-r--r-- 1 root root      321 feb  4  2013 blkid.conf
+lrwxrwxrwx 1 root root       15 jun 12  2013 blkid.tab -> /dev/.blkid.tab
+drwxr-xr-x 2 root root     4096 abr 24  2013 bluetooth
+drwxr-xr-x 2 root root     4096 oct 29  2013 bonobo-activation
+-rw-r--r-- 1 root root       33 abr 24  2013 brlapi.key
+drwxr-xr-x 2 root root    24576 oct 29  2013 brltty
+-rw-r--r-- 1 root root    21917 jun 18  2013 brltty.conf
+drwxr-xr-x 3 root root     4096 abr 24  2013 ca-certificates
+-rw-r--r-- 1 root root     7694 abr  8 19:45 ca-certificates.conf
+-rw-r--r-- 1 root root     7201 oct 29  2013 ca-certificates.conf.dpkg-old
+drwxr-xr-x 2 root root     4096 oct 29  2013 calendar
+drwxr-s--- 2 root dip      4096 abr 24  2013 chatscripts
+-rw-r--r-- 1 root root     1332 ago  5  2013 colord.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 ConsoleKit
+drwxr-xr-x 2 root root     4096 abr 24  2013 console-setup
+drwxr-xr-x 4 root root     4096 dic  7  2013 couchdb
+drwxr-xr-x 2 root root     4096 oct 29  2013 cracklib
+drwxr-xr-x 2 root root     4096 abr  8 19:45 cron.d
+drwxr-xr-x 2 root root     4096 may  3 17:34 cron.daily
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.hourly
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.monthly
+-rw-r--r-- 1 root root      722 feb  9  2013 crontab
+krv@krva:/etc$ ls -l /etc | cat
+total 1384
+drwxr-xr-x 3 root root     4096 oct 29  2013 acpi
+-rw-r--r-- 1 root root     2981 abr 24  2013 adduser.conf
+-rw-r--r-- 1 root root       10 sep  2  2013 adjtime
+drwxr-xr-x 2 root root    12288 may 12 12:22 alternatives
+-rw-r--r-- 1 root root      401 dic 20  2012 anacrontab
+-rw-r--r-- 1 root root      112 oct  1  2012 apg.conf
+drwxr-xr-x 6 root root     4096 abr 24  2013 apm
+drwxr-xr-x 3 root root     4096 ene  6 11:19 apparmor
+drwxr-xr-x 8 root root     4096 may  3 17:42 apparmor.d
+drwxr-xr-x 5 root root     4096 ene  6 11:18 apport
+drwxr-xr-x 6 root root     4096 may  3 17:08 apt
+-rw-r----- 1 root daemon    144 abr  9  2013 at.deny
+drwxr-xr-x 2 root root     4096 nov 14  2013 at-spi2
+drwxr-xr-x 3 root root     4096 ene  6 11:18 avahi
+drwxr-xr-x 2 root root     4096 oct 14  2013 ax25
+-rw-r--r-- 1 root root     2177 mar 30  2013 bash.bashrc
+-rw-r--r-- 1 root root       45 jun 17  2012 bash_completion
+drwxr-xr-x 2 root root     4096 may 20 21:30 bash_completion.d
+-rw-r--r-- 1 root root      356 ene  1  2012 bindresvport.blacklist
+-rw-r--r-- 1 root root      321 feb  4  2013 blkid.conf
+lrwxrwxrwx 1 root root       15 jun 12  2013 blkid.tab -> /dev/.blkid.tab
+drwxr-xr-x 2 root root     4096 abr 24  2013 bluetooth
+drwxr-xr-x 2 root root     4096 oct 29  2013 bonobo-activation
+-rw-r--r-- 1 root root       33 abr 24  2013 brlapi.key
+drwxr-xr-x 2 root root    24576 oct 29  2013 brltty
+-rw-r--r-- 1 root root    21917 jun 18  2013 brltty.conf
+drwxr-xr-x 3 root root     4096 abr 24  2013 ca-certificates
+-rw-r--r-- 1 root root     7694 abr  8 19:45 ca-certificates.conf
+-rw-r--r-- 1 root root     7201 oct 29  2013 ca-certificates.conf.dpkg-old
+drwxr-xr-x 2 root root     4096 oct 29  2013 calendar
+drwxr-s--- 2 root dip      4096 abr 24  2013 chatscripts
+-rw-r--r-- 1 root root     1332 ago  5  2013 colord.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 ConsoleKit
+drwxr-xr-x 2 root root     4096 abr 24  2013 console-setup
+drwxr-xr-x 4 root root     4096 dic  7  2013 couchdb
+drwxr-xr-x 2 root root     4096 oct 29  2013 cracklib
+drwxr-xr-x 2 root root     4096 abr  8 19:45 cron.d
+drwxr-xr-x 2 root root     4096 may  3 17:34 cron.daily
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.hourly
+drwxr-xr-x 2 root root     4096 abr 24  2013 cron.monthly
+-rw-r--r-- 1 root root      722 feb  9  2013 crontab
+drwxr-xr-x 2 root root     4096 ene  6 11:17 cron.weekly
+-rw-r--r-- 1 root root       63 sep  2  2013 crypttab
+drwxr-xr-x 5 root lp       4096 jun 18 12:06 cups
+drwxr-xr-x 2 root root     4096 ene 29 10:22 cupshelpers
+drwxr-xr-x 4 root root     4096 oct 29  2013 dbus-1
+drwxr-xr-x 4 root root     4096 abr 24  2013 dconf
+-rw-r--r-- 1 root root     2969 ene  8  2013 debconf.conf
+-rw-r--r-- 1 root root       11 oct 27  2012 debian_version
+drwxr-xr-x 2 root root     4096 may 20 21:30 default
+-rw-r--r-- 1 root root      604 oct 28  2012 deluser.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 depmod.d
+drwxr-xr-x 4 root root     4096 oct 29  2013 dhcp
+drwxr-xr-x 3 root root     4096 abr 24  2013 dhcp3
+drwxr-xr-x 2 root root     4096 sep  2  2013 dictionaries-common
+drwxr-xr-x 3 root root     4096 abr 17 17:59 dkms
+drwxr-xr-x 2 root root     4096 oct 29  2013 dnsmasq.d
+drwxr-xr-x 3 root root     4096 abr 24  2013 doc-base
+drwxr-xr-x 4 root root     4096 may  3 17:42 dpkg
+-rw-r--r-- 1 root root     3095 oct 10  2013 drirc
+drwxr-xr-x 3 root root     4096 nov 15  2013 emacs
+drwxr-xr-x 3 root root     4096 nov 15  2013 emacs24
+-rw-r--r-- 1 root root       96 abr 24  2013 environment
+drwxr-xr-x 3 root root     4096 may  3 17:42 firefox
+drwxr-xr-x 4 root root     4096 oct 29  2013 fonts
+drwxr-xr-x 3 root root     4096 abr 24  2013 foomatic
+-rw-r--r-- 1 root root      749 sep  2  2013 fstab
+drwxr-xr-x 2 root root     4096 feb  4  2013 fstab.d
+-rw-r----- 1 root fuse      280 may 24  2013 fuse.conf
+-rw-r--r-- 1 root root     2584 oct 10  2012 gai.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 gconf
+drwxr-xr-x 2 root root     4096 oct 29  2013 gdb
+drwxr-xr-x 6 root root     4096 oct 29  2013 gdm
+drwxr-xr-x 4 root root     4096 abr 24  2013 ghostscript
+drwxr-xr-x 3 root root     4096 nov  7  2013 gimp
+drwxr-xr-x 2 root root     4096 ene  6 11:19 gnome
+drwxr-xr-x 2 root root     4096 oct 29  2013 gnome-app-install
+drwxr-xr-x 3 root root     4096 abr 24  2013 gnome-settings-daemon
+drwxr-xr-x 3 root root     4096 abr 24  2013 gnome-vfs-2.0
+drwxr-xr-x 2 root root     4096 oct 29  2013 groff
+-rw-r--r-- 1 root root     1136 dic 18 20:57 group
+-rw------- 1 root root     1120 dic 18 20:57 group-
+drwxr-xr-x 2 root root     4096 nov 14  2013 grub.d
+-rw-r----- 1 root shadow    960 dic 18 20:57 gshadow
+-rw------- 1 root root      944 dic 18 20:57 gshadow-
+drwxr-xr-x 2 root root     4096 oct 29  2013 gtk-2.0
+drwxr-xr-x 2 root root     4096 ene  6 11:16 gtk-3.0
+-rw-r--r-- 1 root root     4781 dic  3  2012 hdparm.conf
+-rw-r--r-- 1 root root       92 oct 27  2012 host.conf
+-rw-r--r-- 1 root root        5 sep  2  2013 hostname
+-rw-r--r-- 1 root root      237 sep  2  2013 hosts
+-rw-r--r-- 1 root root      580 abr 24  2013 hosts.allow
+-rw-r--r-- 1 root root      880 abr 24  2013 hosts.deny
+drwxr-xr-x 3 root root     4096 abr 24  2013 hotplug
+drwxr-xr-x 2 root root     4096 ene 29 10:22 hp
+drwxr-xr-x 3 root root     4096 abr 24  2013 ifplugd
+drwxr-xr-x 2 root root     4096 mar 10 12:59 ImageMagick
+-rw-r--r-- 1 root root     1126 oct 29  2013 inetd.conf
+drwxr-xr-x 2 root root    12288 may  3 17:37 init
+drwxr-xr-x 2 root root     4096 may 20 21:30 init.d
+drwxr-xr-x 5 root root     4096 nov 14  2013 initramfs-tools
+-rw-r--r-- 1 root root     1721 nov 14  2012 inputrc
+drwxr-xr-x 3 root root     4096 nov 26  2012 insserv
+-rw-r--r-- 1 root root      771 may 18  2013 insserv.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 insserv.conf.d
+drwxr-xr-x 2 root root     4096 oct 29  2013 iproute2
+-rw-r--r-- 1 root root       20 oct 13  2013 issue
+-rw-r--r-- 1 root root       13 oct 13  2013 issue.net
+drwxr-xr-x 3 root root     4096 oct 29  2013 java
+drwxr-xr-x 5 root root     4096 may  3 17:42 java-7-openjdk
+drwxr-xr-x 2 root root     4096 abr 24  2013 kbd
+drwxr-xr-x 6 root root     4096 abr 17 17:59 kernel
+-rw-r--r-- 1 root root      110 sep  2  2013 kernel-img.conf
+-rw-r--r-- 1 root root     1311 jul 20  2012 kerneloops.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 ldap
+-rw-r--r-- 1 root root   126536 may 20 21:30 ld.so.cache
+-rw-r--r-- 1 root root       34 abr 24  2013 ld.so.conf
+drwxr-xr-x 2 root root     4096 ene 21 18:20 ld.so.conf.d
+-rw-r--r-- 1 root root      267 jul  3  2012 legal
+-rw-r--r-- 1 root root      191 feb 13  2013 libaudit.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 libnl-3
+drwxr-xr-x 2 root root     4096 feb 11  2013 libpaper.d
+drwxr-xr-x 2 root root     4096 ene  6 11:17 libreoffice
+drwxr-xr-x 3 root root     4096 oct 29  2013 lightdm
+-rw-r--r-- 1 root root     1291 mar 18  2013 lintianrc
+-rw-r--r-- 1 root root     2570 ago  5  2010 locale.alias
+-rw-r--r-- 1 root root     1604 mar 14 13:24 localtime
+drwxr-xr-x 4 root root     4096 abr 24  2013 logcheck
+-rw-r--r-- 1 root root    10551 abr 17  2013 login.defs
+-rw-r--r-- 1 root root      599 feb 19  2009 logrotate.conf
+drwxr-xr-x 2 root root     4096 may  3 17:37 logrotate.d
+-rw-r--r-- 1 root root       98 oct 13  2013 lsb-release
+-rw-r--r-- 1 root root    15752 jul 25  2009 ltrace.conf
+drwxr-xr-x 4 root root     4096 oct 29  2013 lvm
+-rw-r--r-- 1 root root      111 mar  6  2013 magic
+-rw-r--r-- 1 root root      111 mar  6  2013 magic.mime
+drwxr-xr-x 2 root root     4096 abr 24  2013 mail
+-rw-r--r-- 1 root root    51458 may 14 18:27 mailcap
+-rw-r--r-- 1 root root      449 ene  8  2013 mailcap.order
+-rw-r--r-- 1 root root     5173 dic 16  2012 manpath.config
+-rw-r--r-- 1 root root    23922 may 13  2013 mime.types
+-rw-r--r-- 1 root root      956 ene  2  2013 mke2fs.conf
+drwxr-xr-x 2 root root     4096 abr 17 17:59 modprobe.d
+-rw-r--r-- 1 root root      260 sep  2  2013 modules
+-rw-r--r-- 1 root root     2143 ago 29  2013 mongodb.conf
+drwxr-xr-x 5 root root     4096 feb 12 11:00 mono
+-rw-r--r-- 1 root root     1037 jun 18 12:01 mtab
+-rw------- 1 root krv         0 oct 22  2013 mtab~.16539
+-rw------- 1 root krv         0 sep  2  2013 mtab.fuselock
+-rw-r--r-- 1 root root      624 ago  8  2007 mtools.conf
+drwxr-xr-x 3 root root     4096 abr 25 21:57 mysql
+-rw-r--r-- 1 root root     1911 may  1  2012 nail.rc
+-rw-r--r-- 1 root root     8453 oct  1  2012 nanorc
+-rw-r--r-- 1 root root     2064 nov 23  2006 netscsid.conf
+drwxr-xr-x 7 root root     4096 oct 29  2013 network
+drwxr-xr-x 6 root root     4096 oct 29  2013 NetworkManager
+-rw-r--r-- 1 root root       91 jul  3  2012 networks
+drwxr-xr-x 2 root root     4096 oct 29  2013 newt
+drwxr-xr-x 5 root root     4096 abr  8 19:46 nginx
+-rw-r--r-- 1 root root      524 abr 24  2013 nsswitch.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 obex-data-server
+drwxr-xr-x 2 root root     4096 oct  8  2012 ODBCDataSources
+-rw-r--r-- 1 root root        0 oct  8  2012 odbc.ini
+-rw-r--r-- 1 root root        0 mar 13 14:40 odbcinst.ini
+drwxr-xr-x 2 root root     4096 abr 17 17:59 openafs
+drwxr-xr-x 2 root root     4096 sep  2  2013 openal
+drwxr-xr-x 2 root root     4096 may 20 21:30 openvpn
+drwxr-xr-x 2 root root     4096 abr 24  2013 opt
+-rw-r--r-- 1 root root      242 oct 13  2013 os-release
+-rw-r--r-- 1 root root      552 mar 11  2013 pam.conf
+drwxr-xr-x 2 root root     4096 may  3 17:37 pam.d
+-rw-r--r-- 1 root root        7 sep  2  2013 papersize
+-rw-r--r-- 1 root root     2168 dic 18 20:58 passwd
+-rw------- 1 root root     2168 dic 18 20:57 passwd-
+drwxr-xr-x 2 root root     4096 abr 24  2013 pcmcia
+drwxr-xr-x 2 root root     4096 abr  8 19:46 pear
+drwxr-xr-x 4 root root     4096 abr 24  2013 perl
+drwxr-xr-x 4 root root     4096 mar 10 14:37 php5
+drwxr-xr-x 3 root root     4096 abr 24  2013 pkcs11
+drwxr-xr-x 5 root root     4096 abr 24  2013 pm
+-rw-r--r-- 1 root root     7649 oct 29  2013 pnm2ppa.conf
+drwxr-xr-x 5 root root     4096 abr 24  2013 polkit-1
+-rw-r--r-- 1 root root      350 sep  2  2013 popularity-contest.conf
+drwxr-xr-x 8 root root     4096 abr 24  2013 ppp
+lrwxrwxrwx 1 root root       22 may  3 17:37 printcap -> /var/run/cups/printcap
+-rw-r--r-- 1 root root      665 oct 27  2012 profile
+drwxr-xr-x 2 root root     4096 oct 29  2013 profile.d
+-rw-r--r-- 1 root root     2932 may  7  2013 protocols
+drwxr-xr-x 2 root root     4096 oct 29  2013 pulse
+drwxr-xr-x 2 root root     4096 feb 15 09:29 purple
+drwxr-xr-x 2 root root     4096 abr 24  2013 python
+drwxr-xr-x 2 root root     4096 mar 10 12:59 python2.7
+drwxr-xr-x 2 root root     4096 abr 24  2013 python3
+drwxr-xr-x 2 root root     4096 mar 10 12:58 python3.3
+drwxr-xr-x 2 root root     4096 oct 29  2013 R
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc0.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc1.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc2.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc3.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc4.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc5.d
+drwxr-xr-x 2 root root     4096 may 20 21:30 rc6.d
+-rwxr-xr-x 1 root root      306 abr 24  2013 rc.local
+drwxr-xr-x 2 root root     4096 oct 29  2013 rcS.d
+drwxr-xr-x 5 root root     4096 abr 24  2013 resolvconf
+lrwxrwxrwx 1 root root       29 sep  2  2013 resolv.conf -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x 1 root root      268 abr  4  2013 rmt
+-rw-r--r-- 1 root root      887 jul  3  2012 rpc
+-rw-r--r-- 1 root root     1245 abr 18  2013 rsyslog.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 rsyslog.d
+drwxr-xr-x 2 root root     4096 abr  8 19:45 samba
+drwxr-xr-x 3 root root     4096 oct 29  2013 sane.d
+-rw-r--r-- 1 root root     4038 abr 17  2013 securetty
+drwxr-xr-x 3 root root     4096 oct 29  2013 security
+drwxr-xr-x 2 root root     4096 oct 29  2013 selinux
+-rw-r--r-- 1 root root    10344 nov 13  2012 sensors3.conf
+drwxr-xr-x 2 root root     4096 oct 29  2013 sensors.d
+-rw-r--r-- 1 root root    19436 may  7  2013 services
+drwxr-xr-x 3 root root     4096 mar 13 14:40 sgml
+-rw-r----- 1 root shadow   1796 jun 11 12:39 shadow
+-rw------- 1 root root     1691 dic 18 20:57 shadow-
+-rw-r--r-- 1 root root       73 abr 24  2013 shells
+-rw-r--r-- 1 root root      956 sep 18  2013 signond.conf
+drwxr-xr-x 3 root root     4096 abr 24  2013 signon-ui
+drwxr-xr-x 2 root root     4096 oct 29  2013 skel
+-rw-r--r-- 1 root root     1132 feb 25  2013 smi.conf
+drwxr-xr-x 2 root root     4096 abr 24  2013 snmp
+drwxr-xr-x 3 root root     4096 abr 24  2013 sound
+drwxr-xr-x 3 root root     4096 oct 29  2013 spamassassin
+drwxr-xr-x 4 root root     4096 oct 29  2013 speech-dispatcher
+drwxr-xr-x 2 root root     4096 abr  8 19:45 ssh
+drwxr-xr-x 4 root root     4096 abr  8 19:45 ssl
+-rw-r--r-- 1 root root      143 dic 18 20:57 subgid
+-rw------- 1 root root      114 dic  7  2013 subgid-
+-rw-r--r-- 1 root root      143 dic 18 20:57 subuid
+-rw------- 1 root root      114 dic  7  2013 subuid-
+drwxr-xr-x 2 root root     4096 oct 29  2013 subversion
+-r--r----- 1 root root      872 dic 18 21:00 sudoers
+drwxr-xr-x 2 root root     4096 mar 14 13:24 sudoers.d
+-rw------- 1 root root      763 sep  3  2013 sudoers.tmp.save
+-rw-r--r-- 1 root root     2083 nov 15  2011 sysctl.conf
+drwxr-xr-x 2 root root     4096 mar 13 14:40 sysctl.d
+drwxr-xr-x 3 root root     4096 abr  8 19:45 systemd
+drwxr-xr-x 2 root root     4096 oct 29  2013 terminfo
+-rw-r--r-- 1 root root       20 mar 14 13:24 timezone
+drwxr-xr-x 2 root root     4096 sep  2  2013 timidity
+-rw-r--r-- 1 root root      645 may  1  2012 ts.conf
+-rw-r--r-- 1 root root     1260 may 30  2008 ucf.conf
+drwxr-xr-x 4 root root     4096 abr  8 19:45 udev
+drwxr-xr-x 2 root root     4096 mar 26  2013 udisks2
+drwxr-xr-x 3 root root     4096 oct 29  2013 ufw
+-rw-r--r-- 1 root root      321 jun 20  2013 updatedb.conf
+drwxr-xr-x 3 root root     4096 abr 25 21:57 update-manager
+drwxr-xr-x 2 root root     4096 abr 25 21:57 update-motd.d
+drwxr-xr-x 2 root root     4096 abr 17  2013 update-notifier
+drwxr-xr-x 2 root root     4096 oct 29  2013 UPower
+-rw-r--r-- 1 root root      222 oct  9  2013 upstart-xsessions
+-rw-r--r-- 1 root root      572 oct  8  2012 usb_modeswitch.conf
+drwxr-xr-x 2 root root     4096 dic  8  2012 usb_modeswitch.d
+drwxr-xr-x 2 root root     4096 sep  6  2013 vbox
+drwxr-xr-x 2 root root     4096 oct 29  2013 vim
+drwxr-xr-x 3 root root     4096 sep  9  2013 vlc
+lrwxrwxrwx 1 root root       23 sep  2  2013 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r-- 1 root root     4496 nov  7  2012 wgetrc
+drwxr-xr-x 2 root root     4096 oct 29  2013 wildmidi
+drwxr-xr-x 2 root root     4096 oct 29  2013 wireshark
+-rw-r--r-- 1 root root     1343 ene  9  2007 wodim.conf
+drwxr-xr-x 2 root root     4096 ene  6 11:19 wpa_supplicant
+drwxr-xr-x 9 root root     4096 oct 29  2013 X11
+drwxr-xr-x 5 root root     4096 ene  6 11:17 xdg
+drwxr-xr-x 2 root root     4096 mar 13 14:40 xml
+drwxr-xr-x 2 root root     4096 oct 29  2013 xul-ext
+drwxr-xr-x 5 root root     4096 oct 29  2013 yum
+-rw-r--r-- 1 root root      349 feb 26  2013 zsh_command_not_found
+krv@krva:/etc$ clear
+
+krv@krva:/etc$ ls -l pas*
+-rw-r--r-- 1 root root 2168 dic 18 20:58 passwd
+-rw------- 1 root root 2168 dic 18 20:57 passwd-
+krv@krva:/etc$ vim passwd
+krv@krva:/etc$ ls sh*
+shadow  shadow-  shells
+krv@krva:/etc$ vim sh
+shadow   shadow-  shells   
+krv@krva:/etc$ ls -l sh*
+-rw-r----- 1 root shadow 1796 jun 11 12:39 shadow
+-rw------- 1 root root   1691 dic 18 20:57 shadow-
+-rw-r--r-- 1 root root     73 abr 24  2013 shells
+krv@krva:/etc$ vim shadow
+krv@krva:/etc$ sudo su
+[sudo] password for krv: 
+root@krva:/etc# vim shadow
+root@krva:/etc# 
+root@krva:/etc# md5
+No command 'md5' found, did you mean:
+ Command 'mdu' from package 'mtools' (main)
+ Command 'cd5' from package 'cd5' (universe)
+md5: command not found
+root@krva:/etc# md5
+md5pass           md5sum            md5sum.textutils  
+root@krva:/etc# md5sum
+
+
+^C
+root@krva:/etc# md5sum --help
+Usage: md5sum [OPTION]... [FILE]...
+Print or check MD5 (128-bit) checksums.
+With no FILE, or when FILE is -, read standard input.
+
+  -b, --binary         read in binary mode
+  -c, --check          read MD5 sums from the FILEs and check them
+      --tag            create a BSD-style checksum
+  -t, --text           read in text mode (default)
+
+The following three options are useful only when verifying checksums:
+      --quiet          don't print OK for each successfully verified file
+      --status         don't output anything, status code shows success
+  -w, --warn           warn about improperly formatted checksum lines
+
+      --strict         with --check, exit non-zero for any invalid input
+      --help     display this help and exit
+      --version  output version information and exit
+
+The sums are computed as described in RFC 1321.  When checking, the input
+should be a former output of this program.  The default mode is to print
+a line with checksum, a character indicating input mode ('*' for binary,
+space for text), and name for each FILE.
+
+Report md5sum bugs to bug-coreutils@gnu.org
+GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+For complete documentation, run: info coreutils 'md5sum invocation'
+root@krva:/etc# cd 
+root@krva:~# exit
+exit
+krv@krva:/etc$ cd
+krv@krva:~$ cd JAQUE/CURSOS/
+[2013.2]_CodeWinter/ Adwords/             
+[2014.1]_HubSummer/  Materiales/          
+krv@krva:~$ cd JAQUE/CURSOS/
+[2013.2]_CodeWinter/ Adwords/             
+[2014.1]_HubSummer/  Materiales/          
+krv@krva:~$ cd JAQUE/CURSOS/
+[2013.2]_CodeWinter/ Adwords/             
+[2014.1]_HubSummer/  Materiales/          
+krv@krva:~$ cd JAQUE/CURSOS/\[201
+[2013.2]_CodeWinter/ [2014.1]_HubSummer/  
+krv@krva:~$ cd JAQUE/CURSOS/\[2014.1\]_HubSummer/
+CLASES/       Exposiciones/ REPO/         
+krv@krva:~$ cd JAQUE/CURSOS/\[2014.1\]_HubSummer/REPO/hubSummer/
+.git/         HERRAMIENTAS/ TAREAS/       
+krv@krva:~$ cd JAQUE/CURSOS/\[2014.1\]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/
+Practica/ Teoria/   
+krv@krva:~$ cd JAQUE/CURSOS/\[2014.1\]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica/
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+practica01  tarea02
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l
+total 4
+-rw-r--r-- 1 krv krv  0 jun 18 11:57 practica01
+-rw-r--r-- 1 krv krv 11 jun 13 22:58 tarea02
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ clear
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ vim md5
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat md5 
+MiguelAngel
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ md5sum --help
+Usage: md5sum [OPTION]... [FILE]...
+Print or check MD5 (128-bit) checksums.
+With no FILE, or when FILE is -, read standard input.
+
+  -b, --binary         read in binary mode
+  -c, --check          read MD5 sums from the FILEs and check them
+      --tag            create a BSD-style checksum
+  -t, --text           read in text mode (default)
+
+The following three options are useful only when verifying checksums:
+      --quiet          don't print OK for each successfully verified file
+      --status         don't output anything, status code shows success
+  -w, --warn           warn about improperly formatted checksum lines
+
+      --strict         with --check, exit non-zero for any invalid input
+      --help     display this help and exit
+      --version  output version information and exit
+
+The sums are computed as described in RFC 1321.  When checking, the input
+should be a former output of this program.  The default mode is to print
+a line with checksum, a character indicating input mode ('*' for binary,
+space for text), and name for each FILE.
+
+Report md5sum bugs to bug-coreutils@gnu.org
+GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+For complete documentation, run: info coreutils 'md5sum invocation'
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ md5sum md5 
+a06e4ce236b898aa5bd5920473011d0c  md5
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINU
+
+
+
+
+
+
+
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUkrv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+md5  practica01  tarea02
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat /etc/passwd > usuarios
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+md5  practica01  tarea02  usuarios
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l
+total 12
+-rw-r--r-- 1 krv krv   12 jun 18 12:16 md5
+-rw-r--r-- 1 krv krv    0 jun 18 11:57 practica01
+-rw-r--r-- 1 krv krv   11 jun 13 22:58 tarea02
+-rw-r--r-- 1 krv krv 2168 jun 18 12:20 usuarios
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ less usuarios 
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ tail
+^C
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ head usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi
+usbmux:x:104:46:usbmux
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech
+avahi:x:110:116:Avahi
+colord:x:111:118:colord
+pulse:x:112:119:PulseAudio
+hplip:x:113:7:HPLIP
+gdm:x:114:121:Gnome
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB
+franciscolaguna:x:1004:1004:Francisco
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ clear
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi
+usbmux:x:104:46:usbmux
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech
+avahi:x:110:116:Avahi
+colord:x:111:118:colord
+pulse:x:112:119:PulseAudio
+hplip:x:113:7:HPLIP
+gdm:x:114:121:Gnome
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB
+franciscolaguna:x:1004:1004:Francisco
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ less ../../
+CURSO_LINUX/ lista        
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ less ../../lista 
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' ../../lista 
+Integrantes
+
+CRMA|Carvajal
+
+VSTD
+CPD
+SAR
+EETB
+JRR
+JPVO
+LFSB
+CMVR
+CIRG
+MFM
+HAE
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $2 }' ../../lista 
+del
+
+Ramos
+
+Victor
+Contreras
+Sergio
+Emanuel
+Joel
+Jose
+Luis
+Cenobio
+Claudia
+Monserrat
+Elizabeth
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+usbmux:x:104:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:110:116:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+colord:x:111:118:colord colour management daemon,,,:/var/lib/colord:/bin/false
+pulse:x:112:119:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+hplip:x:113:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+gdm:x:114:121:Gnome Display Manager:/var/lib/gdm:/bin/false
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel Ángel,,,:/home/krv:/bin/bash
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto YAel,,,:/home/alberto:/bin/bash
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB Administrator,,,:/var/lib/couchdb:/bin/bash
+franciscolaguna:x:1004:1004:Francisco Laguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi
+usbmux:x:104:46:usbmux
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech
+avahi:x:110:116:Avahi
+colord:x:111:118:colord
+pulse:x:112:119:PulseAudio
+hplip:x:113:7:HPLIP
+gdm:x:114:121:Gnome
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB
+franciscolaguna:x:1004:1004:Francisco
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 $2 }' usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:MailingList
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:GnatsBug-Reporting
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahiautoip
+usbmux:x:104:46:usbmuxdaemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:KernelOops
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:SpeechDispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:110:116:AvahimDNS
+colord:x:111:118:colordcolour
+pulse:x:112:119:PulseAudiodaemon,,,:/var/run/pulse:/bin/false
+hplip:x:113:7:HPLIPsystem
+gdm:x:114:121:GnomeDisplay
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:MiguelÁngel,,,:/home/krv:/bin/bash
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:AlbertoYAel,,,:/home/alberto:/bin/bash
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDBAdministrator,,,:/var/lib/couchdb:/bin/bash
+franciscolaguna:x:1004:1004:FranciscoLaguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $2 }' usuarios 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List
+
+Bug-Reporting
+
+
+
+
+autoip
+daemon,,,:/home/usbmux:/bin/false
+
+
+Oops
+
+Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+mDNS
+colour
+daemon,,,:/var/run/pulse:/bin/false
+system
+Display
+
+
+Ángel,,,:/home/krv:/bin/bash
+
+YAel,,,:/home/alberto:/bin/bash
+
+
+
+Administrator,,,:/var/lib/couchdb:/bin/bash
+Laguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ clear
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat usuarios
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+usbmux:x:104:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:110:116:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+colord:x:111:118:colord colour management daemon,,,:/var/lib/colord:/bin/false
+pulse:x:112:119:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+hplip:x:113:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+gdm:x:114:121:Gnome Display Manager:/var/lib/gdm:/bin/false
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel Ángel,,,:/home/krv:/bin/bash
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto YAel,,,:/home/alberto:/bin/bash
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB Administrator,,,:/var/lib/couchdb:/bin/bash
+franciscolaguna:x:1004:1004:Francisco Laguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' usuarios 
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi
+usbmux:x:104:46:usbmux
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech
+avahi:x:110:116:Avahi
+colord:x:111:118:colord
+pulse:x:112:119:PulseAudio
+hplip:x:113:7:HPLIP
+gdm:x:114:121:Gnome
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB
+franciscolaguna:x:1004:1004:Francisco
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $1 }' usuarios > usuarios1
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk '{ print $2 }' usuarios > usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat usuarios1
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi
+usbmux:x:104:46:usbmux
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech
+avahi:x:110:116:Avahi
+colord:x:111:118:colord
+pulse:x:112:119:PulseAudio
+hplip:x:113:7:HPLIP
+gdm:x:114:121:Gnome
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB
+franciscolaguna:x:1004:1004:Francisco
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cat usuarios2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+List
+
+Bug-Reporting
+
+
+
+
+autoip
+daemon,,,:/home/usbmux:/bin/false
+
+
+Oops
+
+Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+mDNS
+colour
+daemon,,,:/var/run/pulse:/bin/false
+system
+Display
+
+
+Ángel,,,:/home/krv:/bin/bash
+
+YAel,,,:/home/alberto:/bin/bash
+
+
+
+Administrator,,,:/var/lib/couchdb:/bin/bash
+Laguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ man awk
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -FS":" '{print $1}' usuarios
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+avahi-autoipd:x:103:106:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+usbmux:x:104:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dnsmasq:x:105:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+whoopsie:x:106:111::/nonexistent:/bin/false
+kernoops:x:107:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+rtkit:x:108:114:RealtimeKit,,,:/proc:/bin/false
+speech-dispatcher:x:109:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+avahi:x:110:116:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+colord:x:111:118:colord colour management daemon,,,:/var/lib/colord:/bin/false
+pulse:x:112:119:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+hplip:x:113:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+gdm:x:114:121:Gnome Display Manager:/var/lib/gdm:/bin/false
+saned:x:115:123::/home/saned:/bin/false
+debian-spamd:x:116:124::/var/lib/spamassassin:/bin/sh
+krv:x:1000:1000:Miguel Ángel,,,:/home/krv:/bin/bash
+jairo:x:1001:1001:Jairo,,,:/home/jairo:/bin/bash
+alberto:x:1002:1002:Alberto YAel,,,:/home/alberto:/bin/bash
+mongodb:x:117:65534::/home/mongodb:/bin/false
+jorge:x:1003:1003:Jorge,,,:/home/jorge:/bin/bash
+sshd:x:118:65534::/var/run/sshd:/usr/sbin/nologin
+couchdb:x:119:128:CouchDB Administrator,,,:/var/lib/couchdb:/bin/bash
+franciscolaguna:x:1004:1004:Francisco Laguna,,,:/home/franciscolaguna:/bin/bash
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -FS ":" '{print $1}' usuarios
+awk: line 1: syntax error at or near :
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -FS "\:" '{print $1}' usuarios
+awk: 0: unexpected character '\'
+awk: line 1: syntax error at or near :
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{print $1}' usuarios
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+libuuid
+syslog
+messagebus
+avahi-autoipd
+usbmux
+dnsmasq
+whoopsie
+kernoops
+rtkit
+speech-dispatcher
+avahi
+colord
+pulse
+hplip
+gdm
+saned
+debian-spamd
+krv
+jairo
+alberto
+mongodb
+jorge
+sshd
+couchdb
+franciscolaguna
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{print $1 $2}' usuarios
+rootx
+daemonx
+binx
+sysx
+syncx
+gamesx
+manx
+lpx
+mailx
+newsx
+uucpx
+proxyx
+www-datax
+backupx
+listx
+ircx
+gnatsx
+nobodyx
+libuuidx
+syslogx
+messagebusx
+avahi-autoipdx
+usbmuxx
+dnsmasqx
+whoopsiex
+kernoopsx
+rtkitx
+speech-dispatcherx
+avahix
+colordx
+pulsex
+hplipx
+gdmx
+sanedx
+debian-spamdx
+krvx
+jairox
+albertox
+mongodbx
+jorgex
+sshdx
+couchdbx
+franciscolagunax
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{print $1 $2 $3}' usuarios
+rootx0
+daemonx1
+binx2
+sysx3
+syncx4
+gamesx5
+manx6
+lpx7
+mailx8
+newsx9
+uucpx10
+proxyx13
+www-datax33
+backupx34
+listx38
+ircx39
+gnatsx41
+nobodyx65534
+libuuidx100
+syslogx101
+messagebusx102
+avahi-autoipdx103
+usbmuxx104
+dnsmasqx105
+whoopsiex106
+kernoopsx107
+rtkitx108
+speech-dispatcherx109
+avahix110
+colordx111
+pulsex112
+hplipx113
+gdmx114
+sanedx115
+debian-spamdx116
+krvx1000
+jairox1001
+albertox1002
+mongodbx117
+jorgex1003
+sshdx118
+couchdbx119
+franciscolagunax1004
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{print $1"|"$2 $3}' usuarios
+root|x0
+daemon|x1
+bin|x2
+sys|x3
+sync|x4
+games|x5
+man|x6
+lp|x7
+mail|x8
+news|x9
+uucp|x10
+proxy|x13
+www-data|x33
+backup|x34
+list|x38
+irc|x39
+gnats|x41
+nobody|x65534
+libuuid|x100
+syslog|x101
+messagebus|x102
+avahi-autoipd|x103
+usbmux|x104
+dnsmasq|x105
+whoopsie|x106
+kernoops|x107
+rtkit|x108
+speech-dispatcher|x109
+avahi|x110
+colord|x111
+pulse|x112
+hplip|x113
+gdm|x114
+saned|x115
+debian-spamd|x116
+krv|x1000
+jairo|x1001
+alberto|x1002
+mongodb|x117
+jorge|x1003
+sshd|x118
+couchdb|x119
+franciscolaguna|x1004
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{print $1"|"$2"|"$3}' usuarios
+root|x|0
+daemon|x|1
+bin|x|2
+sys|x|3
+sync|x|4
+games|x|5
+man|x|6
+lp|x|7
+mail|x|8
+news|x|9
+uucp|x|10
+proxy|x|13
+www-data|x|33
+backup|x|34
+list|x|38
+irc|x|39
+gnats|x|41
+nobody|x|65534
+libuuid|x|100
+syslog|x|101
+messagebus|x|102
+avahi-autoipd|x|103
+usbmux|x|104
+dnsmasq|x|105
+whoopsie|x|106
+kernoops|x|107
+rtkit|x|108
+speech-dispatcher|x|109
+avahi|x|110
+colord|x|111
+pulse|x|112
+hplip|x|113
+gdm|x|114
+saned|x|115
+debian-spamd|x|116
+krv|x|1000
+jairo|x|1001
+alberto|x|1002
+mongodb|x|117
+jorge|x|1003
+sshd|x|118
+couchdb|x|119
+franciscolaguna|x|1004
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls -l /etc/shadow
+-rw-r----- 1 root shadow 1796 jun 11 12:39 /etc/shadow
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ man awk
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{if $1=gdm print $1"|"$2"|"$3}' usua 
+awk: line 1: syntax error at or near $
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{if ($1=gdm) print $1"|"$2"|"$3}' usua
+awk: cannot open usua (No such file or directory)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{if ($1=="gdm") print $1"|"$2"|"$3}' usua
+awk: cannot open usua (No such file or directory)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ gawk -F ":" '{if ($1=="gdm") print $1"|"$2"|"$3}' usua
+The program 'gawk' is currently not installed. You can install it by typing:
+sudo apt-get install gawk
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{ print $1"|"$2"|"$3}' usuaawk: cannot open usua (No such file or directory)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{ print $1"|"$2"|"$3}' usuarios
+root|x|0
+daemon|x|1
+bin|x|2
+sys|x|3
+sync|x|4
+games|x|5
+man|x|6
+lp|x|7
+mail|x|8
+news|x|9
+uucp|x|10
+proxy|x|13
+www-data|x|33
+backup|x|34
+list|x|38
+irc|x|39
+gnats|x|41
+nobody|x|65534
+libuuid|x|100
+syslog|x|101
+messagebus|x|102
+avahi-autoipd|x|103
+usbmux|x|104
+dnsmasq|x|105
+whoopsie|x|106
+kernoops|x|107
+rtkit|x|108
+speech-dispatcher|x|109
+avahi|x|110
+colord|x|111
+pulse|x|112
+hplip|x|113
+gdm|x|114
+saned|x|115
+debian-spamd|x|116
+krv|x|1000
+jairo|x|1001
+alberto|x|1002
+mongodb|x|117
+jorge|x|1003
+sshd|x|118
+couchdb|x|119
+franciscolaguna|x|1004
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{if($1=="gdm") print $1"|"$2"|"$3}' usuarios
+gdm|x|114
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{ print $1}' usuariosroot
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+libuuid
+syslog
+messagebus
+avahi-autoipd
+usbmux
+dnsmasq
+whoopsie
+kernoops
+rtkit
+speech-dispatcher
+avahi
+colord
+pulse
+hplip
+gdm
+saned
+debian-spamd
+krv
+jairo
+alberto
+mongodb
+jorge
+sshd
+couchdb
+franciscolaguna
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{ print $1}' usuarios > usuarios1
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ less usuarios1
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ awk -F ":" '{ print $1}' usuarios >> usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ less usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+md5  practica01  tarea02  usuarios  usuarios1  usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git pull
+remote: Counting objects: 28, done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 22 (delta 6), reused 19 (delta 3)
+Unpacking objects: 100% (22/22), done.
+From github.com:Grupojaque/hubSummer
+   100ed90..b3735fa  master     -> origin/master
+Updating 100ed90..b3735fa
+error: Your local changes to the following files would be overwritten by merge:
+	TAREAS/lista
+Please, commit your changes or stash them before you can merge.
+Aborting
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ pwd
+/home/krv/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cd ../../
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ ls
+CURSO_LINUX  lista
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ rm lista
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git pull
+Updating 100ed90..b3735fa
+Fast-forward
+ TAREAS/lista    |   3 +++
+ Tarea01/TAREA01 | 120 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 123 insertions(+)
+ create mode 100644 Tarea01/TAREA01
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git log
+commit b3735fafe966c91a3207ff7d808821107d659ab0
+Author: Macaal <altaovidia@hotmail.com>
+Date:   Mon Jun 16 11:16:51 2014 -0500
+
+    Me agrege a la lista del grupo
+
+commit 7e7052d88fddc37939f73f31b876a817058054ad
+Author: Sergio <sergioarc@ciencias.unam.mx>
+Date:   Sun Jun 15 22:14:54 2014 -0500
+
+    Mejoracion de la Tarea uno y además terminada!
+
+commit 5070e5d91b28b1a9f2dca517085a89ec41bfcd67
+Merge: 68079c1 3af1294
+Author: Sergio <sergioarc@ciencias.unam.mx>
+Date:   Fri Jun 13 16:51:50 2014 -0500
+
+    Merge branch 'master' of https://github.com/Grupojaque/hubSummer
+
+commit 68079c1c2f78b13937bdc9f463ebd54b1ce4a53b
+Author: Sergio <sergioarc@ciencias.unam.mx>
+Date:   Fri Jun 13 16:50:18 2014 -0500
+
+    Se agrego la tarea uno
+
+commit 3af12948e71f3ae1162000ea6aabbad8c82ba06e
+Author: Raquel Aguilar Marquez <raquelaguilar@ciencias.unam.mx>
+Date:   Fri Jun 13 15:20:26 2014 -0500
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ ls
+CURSO_LINUX  lista
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branch MACR
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git
+usage: git [--version] [--help] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branch
+  MACR
+* master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ clear
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branch
+  MACR
+* master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git pull
+Already up-to-date.
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git checkout MACR
+Switched to branch 'MACR'
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branch
+* MACR
+  master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ ls
+CURSO_LINUX  lista
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ pwd
+/home/krv/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ cd CURSO_LINUX/
+Practica/ Teoria/   
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ cd CURSO_LINUX/Practica/
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+md5  practica01  tarea02  usuarios  usuarios1  usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ mkdir MACR
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git branch
+* MACR
+  master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git branch master
+fatal: A branch named 'master' already exists.
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git checkout master
+Switched to branch 'master'
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../../../HERRAMIENTAS/
+#	../
+nothing added to commit but untracked files present (use "git add" to track)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git add .
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git commit -a
+[master b462c18] Agregando carpeta de Herramientas
+ 6 files changed, 176 insertions(+)
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/md5
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/practica01
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/tarea02
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/usuarios
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/usuarios1
+ create mode 100644 TAREAS/CURSO_LINUX/Practica/usuarios2
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 1.90 KiB | 0 bytes/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+To git@github.com:Grupojaque/hubSummer.git
+   b3735fa..b462c18  master -> master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../../../HERRAMIENTAS/
+nothing added to commit but untracked files present (use "git add" to track)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git branch
+  MACR
+* master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git checkout MACR
+Switched to branch 'MACR'
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ ls
+MACR
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ git status
+# On branch MACR
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	../../../HERRAMIENTAS/
+nothing added to commit but untracked files present (use "git add" to track)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS/CURSO_LINUX/Practica$ cd ../../../
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ ls
+HERRAMIENTAS  README.md  Tarea01  TAREAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ cd T
+Tarea01/ TAREAS/  
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ cd TAREAS/CURSO_LINUX/
+Practica/ Teoria/   
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ ls
+HERRAMIENTAS  README.md  Tarea01  TAREAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer$ cd TAREAS/
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ ls
+CURSO_LINUX  lista
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ pwd
+/home/krv/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ tree -L 3
+.
+├── CURSO_LINUX
+│   ├── Practica
+│   │   └── MACR
+│   └── Teoria
+└── lista
+
+4 directories, 1 file
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> MACR
+
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git branch
+* MACR
+  master
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git checkout master
+Switched to branch 'master'
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ git pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 4 (delta 1)
+Unpacking objects: 100% (4/4), done.
+From github.com:Grupojaque/hubSummer
+   b462c18..95c570e  master     -> origin/master
+Updating b462c18..95c570e
+Fast-forward
+ TAREAS/lista | 1 +
+ 1 file changed, 1 insertion(+)
+krv@krva:~/JAQUE/CURSOS/[2014.1]_HubSummer/REPO/hubSummer/TAREAS$ google-chrome-stable &
