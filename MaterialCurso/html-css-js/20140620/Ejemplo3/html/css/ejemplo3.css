@@ -50,11 +50,13 @@ body > #header .txthed{
 }
 #sec2{
 	max-width: 1280px;
+	height: 160px;
 	width: 100%;
 	margin: auto;
 	/*código que será removido*/
-	min-height: 100%; 
 	background: black;
+
+
 }
 #sec2 #header2{
 	width: 100%;
@@ -71,6 +73,22 @@ body > #header .txthed{
 	text-align: right ;
 }
 .mitad{
-	width: 50%;
-	display: inline-block;
+		width: 50%;
+		display: inline-block;
+}
+
+#sec3 {max-width: 1280px;
+		height: 800px;
+		width: 100%;
+		margin: auto;
+		background-color: blue;
+}
+
+
+#sec4, #sec5,  #sec6, #sec7 {
+		float: center;
+		width: 200px;
+		height: 200px;
+		border: 1px solid red;
+		/*display: inline-block*/;
 }
