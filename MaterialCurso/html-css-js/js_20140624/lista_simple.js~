@@ -1,0 +1,3 @@
+function Nodo(valor_){
+    var valor = valor_;
+}
