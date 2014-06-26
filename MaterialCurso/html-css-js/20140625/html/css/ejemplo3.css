@@ -110,21 +110,3 @@ body > #header .txthed{
     z-index: 999;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
-
-.sec5{
-	display:inline-block;
-
-}
-#atras{
-	float:left;
-	width: 300px;
-	height: 150px;
-	background: yellow;
-
-}
-#adelante{
-	float:right;
-	width: 300px;
-	height: 150px;
-	background: yellow;
-}
