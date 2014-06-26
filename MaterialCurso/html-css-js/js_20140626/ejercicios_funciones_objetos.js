@@ -1,4 +1,8 @@
 /*
+  Problema: Dar la sucesión n-ésima de Fibonacci
+*/
+
+/*
   Problema: Dado un arreglo A, encontrar un numero n de tal forma que A[n] = n
 */
 
