@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ejemplo2</title>
+		<link rel="stylesheet" type="text/css" href="css/ejemplo2.css">
+	</head>
+	<body>
+		<section class="centrar">
+			<button id ='erbut'> ¡ Clickeame !</button>
+		</section>
+	</body>
+</html>
