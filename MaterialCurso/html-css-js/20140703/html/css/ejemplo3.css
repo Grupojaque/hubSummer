@@ -85,16 +85,14 @@ body > #header .txthed{
 	width: 100%;
 	margin: 0 auto;
 	background: black;
-	
+
 }
 
 .contenedor{
-	height: 300px;
-	width: 99%;
+	width: 100%;
 }
 
 .sec4{
-	float: right;
 	width: 310px;
 	height: 99%;
 	border: 1px solid red;
