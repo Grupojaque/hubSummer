@@ -58,3 +58,18 @@ function ArbolBinarioBusqueda(){
     }
 
 }
+
+function es_busqueda(nodo){
+    if(nodo == null)
+	return true;
+    if(nodo.izquierdo == null && nodo.derecho == null)
+	return true;
+    else if(nodo.izquierdo != null && nodo.derecho == null)
+	return true && es_busqueda(nodo.izquierdo);
+    else if(nodo.derecho != null && nodo.izquierdo == null)
+	return true && es_busqueda(nodo.derecho);
+    if(nodo.izquierdo.valor <= nodo.valor && nodo.derecho.valor > nodo.valor){
+	return es_busqueda(nodo.izquierdo) && es_busqueda(nodo.derecho) && true;
+    }else
+	return false;
+}
