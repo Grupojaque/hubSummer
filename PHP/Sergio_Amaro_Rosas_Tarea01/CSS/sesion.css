@@ -1,0 +1,23 @@
+.cabeza{
+	background: #30ADA0;
+}
+
+.input{
+	width: 26%;
+}
+
+.sec1{
+	margin-left: 455px;
+	margin-top: 44px;
+}
+#texto1{
+	margin-left: 20px;
+	font-size: 50px;
+}
+
+.headp{
+	background: #30ADA0;
+	width: 100%;
+	color: white;
+
+}
