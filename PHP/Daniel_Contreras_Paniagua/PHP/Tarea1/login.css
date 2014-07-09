@@ -1,0 +1,28 @@
+
+#header1, #header1 *{
+	background:rgba(0,0,0,0);
+	color:white;
+}
+#header1{
+	background: rgb(169,3,41);
+background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 73%, rgba(109,0,25,1) 73%, rgba(109,0,25,1) 85%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(169,3,41,1)), color-stop(44%,rgba(143,2,34,1)), color-stop(73%,rgba(109,0,25,1)), color-stop(73%,rgba(109,0,25,1)), color-stop(85%,rgba(109,0,25,1)));
+background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 85%);
+background: -o-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 85%);
+background: -ms-linear-gradient(top, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 85%);
+background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 73%,rgba(109,0,25,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );
+margin-bottom: 30px;
+}
+
+#myForm{
+	width:400px;
+}
+
+.input-group-addon{
+	width:100px !important;
+}
+
+h3{
+	text-transform:capitalize;
+}
