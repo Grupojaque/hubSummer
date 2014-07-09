@@ -5,7 +5,6 @@
     	<title>ejemplo3</title>
     	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     	<link rel="stylesheet" type="text/css" href="css/ejemplo3.css">
   	</head>
   	<body>
@@ -22,41 +21,29 @@
 		    	if(response.status == "not_authorized" || response.status == "unknown")
 			  		window.location = window.location.origin;
 		      
-			    FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender)", function(response){
-				document.getElementById("imgusr").setAttribute("src",response.picture.data.url);
-				document.getElementById("sec1").childNodes[5].childNodes[3].textContent = response.name;
-				var contenedor, article, img, footer, txt, section = document.getElementById("sec3");
-				contenedor = document.createElement("section");
-				contenedor.setAttribute("class","contenedor");
-				section.appendChild(contenedor);
-				var arreglo = response.friends.data.concat(response.invitable_friends.data);
-				for(var i = 0; i < arreglo.length; i++){
-				    article = document.createElement("article");
-				    article.setAttribute("class","sec4");
-				    article.setAttribute("data-toggle","popover");
-				    article.setAttribute("data-content",arreglo[i].gender);
-				    img = document.createElement("img");
-				    img.setAttribute("src",arreglo[i].picture.data.url);
-				    footer = document.createElement("footer");
-				    footer.setAttribute("class","nombre");
-				    txt = document.createTextNode(arreglo[i].name.substring(0, 10));
-				    footer.appendChild(txt);
-				    article.appendChild(img);
-				    article.appendChild(footer);
-				    contenedor.appendChild(article);
-				}
-				$("article.sec4").each(function(index, element){
-				    if($(element).find("footer").text().indexOf("Moy") != -1)
-					$(element).find("img").hover(function(){
-                                            $(this).css("border-color","yellow");
-                                        },function(){$(this).css("border-color","white");});
-				    if($(element).attr("data-content") == "male"){
-					$(element).find("img").hover(function(){
-					    $(this).css("border-color","blue");
-					},function(){$(this).css("border-color","white");});
-				    }
-				});
-			    })
+			    FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120))", function(response){
+					document.getElementById("imgusr").setAttribute("src",response.picture.data.url);
+				  	document.getElementById("sec1").childNodes[5].childNodes[3].textContent = response.name;
+				  	var contenedor, article, img, footer, txt, section = document.getElementById("sec3");
+				  	for(var i = 0; i < response.invitable_friends.data.length; i++){
+				    	if(i == 0){
+							contenedor = document.createElement("section");
+							contenedor.setAttribute("class","contenedor");
+							section.appendChild(contenedor);
+					    }
+						article = document.createElement("article");
+						article.setAttribute("class","sec4");
+						img = document.createElement("img");
+						img.setAttribute("src",response.invitable_friends.data[i].picture.data.url);
+						footer = document.createElement("footer");
+						footer.setAttribute("class","nombre");
+						txt = document.createTextNode(response.invitable_friends.data[i].name.substring(0, 10));
+						footer.appendChild(txt);
+						article.appendChild(img);
+						article.appendChild(footer);
+						contenedor.appendChild(article);
+					}
+				})
 			});
 		};
       
@@ -117,9 +104,5 @@
 	</section>
       </section>
     </footer>
-
-    <!-- Javascript :) -->
-    <script type="text/javascript" src="lib/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
