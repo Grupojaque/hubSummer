@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<meta charset="utf-8">
+    	<title>ejemplo3</title>
+    	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    	<link rel="stylesheet" type="text/css" href="css/ejemplo3.css">
+  	</head>
+  	<body>
+    <header id="header">
+      <div>
+	<button>AYUDA</button>
+      </div>
+      <section class="right" id="sec1" >
+	<article class="imghed">
+	  <img id="imgkie" src="imgs/KieroLogo.png">
+	</article>
+	<article class="imghed">
+	  <img id="imgusr" data-bind="attr: {src: usuario().foto}">
+	</article>
+	<article class="txthed">
+	  <p class="arriba">Bienvenido</p>
+	  <p class="arriba" data-bind="text: usuario().nombre"></p>
+	</article>
+	<article class="txthed">
+	  <p class="arriba">Te quedan</p>
+	  <p class="arriba">7 flechazos</p>
+	</article>
+      </section>
+    </header>
+    <section id="sec2">
+      <header id="header2">
+	<article class="left mitad" >
+	  <p id="textoarriba">Manda un flechazo a quien mas te guste y descubre si eso persona kiere kontigo. No corres el riesgo de que se entere a menos que te seleccione a ti también.</p>
+	</article>
+	<article class="left mitad" >
+	  <img id="mujer" class="genero" src="imgs/K_ic_femaleN.png">
+	  <img id="hombre" class="genero" src="imgs/K_ic_maleN.png">
+	  <input id="buscador" placeholder="Buscar">
+	</article>
+      </header>
+    </section>    
+    <section id="sec3">
+    <section class="contenedor" data-bind="foreach: amigos()">
+      <article class="sec4">
+	<img data-bind="attr: {src: picture.data.url}">
+	<footer class="nombre" data-bind="text: name">
+	</footer>
+      </article>
+    </section>
+    <!-- Relleno-->
+    </section>
+    <footer>
+      <section class="sec5">
+	<section class="left" id="atras">
+	  <p class="abajo">Atras</p>
+	</section>
+	<input id="buscar" placeholder="Buscar">
+	<section class="rigth" id="adelante">
+	  <p class="abajo">Siguiente</p>
+	</section>
+      </section>
+    </footer>
+
+    <!-- Javascript :) -->
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/knockout-3.1.0.js"></script>
+    <script>
+    /* Definir modelo para Knockout */
+var modelo = {
+    "usuario": ko.observable({}),
+    "amigos": ko.observableArray([]),
+    "males": ko.observableArray([]),
+    "females": ko.observableArray([]),
+    "backup": ko.observableArray([])
+    }
+ko.applyBindings(modelo);
+    </script>
+<script>
+    window.fbAsyncInit = function() {
+	FB.init({
+	    appId      : '686818771334811',
+	    cookie     : true,
+	    xfbml      : true,
+	    version    : 'v2.0'
+	});
+	
+	FB.getLoginStatus(function(response) {
+	    if(response.status == "not_authorized" || response.status == "unknown")
+		window.location = window.location.origin;
+	    
+	    FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender)", function(response){
+		var mi_usuario = {nombre: response.name, id: response.id, foto: response.picture.data.url};
+		var amigos = response.friends.data.concat(response.invitable_friends.data);
+		modelo.usuario(mi_usuario);
+		modelo.amigos(amigos);
+		modelo.backup(amigos);
+		for(var i = 0; i < response.friends.data.length; i++)
+		    modelo[response.friends.data[i].gender + "s"].push(response.friends.data[i]);
+		/*document.getElementById("imgusr").setAttribute("src",response.picture.data.url);
+		  document.getElementById("sec1").childNodes[5].childNodes[3].textContent = response.name;
+		  var contenedor, article, img, footer, txt, section = document.getElementById("sec3");
+		  contenedor = document.createElement("section");
+		  contenedor.setAttribute("class","contenedor");
+		  section.appendChild(contenedor);
+		  var arreglo = response.friends.data.concat(response.invitable_friends.data);
+		  for(var i = 0; i < arreglo.length; i++){
+		  article = document.createElement("article");
+		  article.setAttribute("class","sec4");
+		  article.setAttribute("data-toggle","popover");
+		  article.setAttribute("data-content",arreglo[i].gender);
+		  img = document.createElement("img");
+		  img.setAttribute("src",arreglo[i].picture.data.url);
+		  footer = document.createElement("footer");
+		  footer.setAttribute("class","nombre");
+		  txt = document.createTextNode(arreglo[i].name.substring(0, 10));
+		  footer.appendChild(txt);
+		  article.appendChild(img);
+		  article.appendChild(footer);
+		  contenedor.appendChild(article);
+		  }
+		  $("article.sec4").each(function(index, element){
+		  if($(element).find("footer").text().indexOf("Moy") != -1)
+		  $(element).find("img").hover(function(){
+                  $(this).css("border-color","yellow");
+                  },function(){$(this).css("border-color","white");});
+		  if($(element).attr("data-content") == "male"){
+		  $(element).find("img").hover(function(){
+		  $(this).css("border-color","blue");
+		  },function(){$(this).css("border-color","white");});
+		  }
+		  if($(element).attr("data-content") == "female"){
+		  $(element).find("img").hover(function(){
+		  $(this).css("border-color","pink");
+		  },function(){$(this).css("border-color","white");});
+		  }
+		  });*/
+	    })
+	});
+    };
+
+// Load the SDK asynchronously
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+    </script>
+<script>
+var btn_m = false, btn_f = false;
+
+$("#mujer").click(function(event){
+    if(btn_f){
+	btn_f = false;
+	modelo.amigos(modelo.backup());
+	$(this).css("opacity","1");
+    }else{
+	btn_f = true;
+	$(this).css("opacity","0.5");
+	if(btn_m){
+	    btn_m = false;
+	    $("#hombre").css("opacity","1");
+	}
+	modelo.amigos(modelo.females());
+    }
+});
+$("#hombre").click(function(event){
+    if(btn_m){
+	btn_m = false;
+	modelo.amigos(modelo.backup());
+	$(this).css("opacity","1");
+    }else{
+	btn_m = true;
+	$(this).css("opacity","0.5");
+	if(btn_f){
+	    btn_f = false;
+	    $("#mujer").css("opacity","1");
+	}
+	modelo.amigos(modelo.males());
+    }
+});    
+</script>
+  </body>
+</html>

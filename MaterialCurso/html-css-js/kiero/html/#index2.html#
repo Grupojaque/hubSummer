@@ -53,8 +53,9 @@
 				    if($(element).attr("data-content") == "male"){
 					$(element).find("img").hover(function(){
 					    $(this).css("border-color","blue");
-					},function(){$(this).css("border-color","white");});
+					},function(){$(this).css("border-color","white");});}
 				    }
+						   
 				});
 			    })
 			});

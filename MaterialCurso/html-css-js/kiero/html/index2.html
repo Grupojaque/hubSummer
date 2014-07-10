@@ -55,6 +55,12 @@
 					    $(this).css("border-color","blue");
 					},function(){$(this).css("border-color","white");});
 				    }
+				    if($(element).attr("data-content") == "female"){
+					$(element).find("img").hover(function(){
+					    $(this).css("border-color","pink");
+					},function(){$(this).css("border-color","white");});
+				    }
+
 				});
 			    })
 			});
