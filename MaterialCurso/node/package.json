@@ -1,0 +1,6 @@
+{
+    "name":"mi-primer-servidor",
+    "version":"0.0.1",
+    "repository":{"type":"git","url":"https://github.com/Grupojaque/hubsummer.git"},
+    "dependencies":{"express":"4.x","mongodb":"*","body-parser":"*"}
+}
