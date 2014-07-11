@@ -34,10 +34,8 @@ html
     section#sec3
       section.contenedor(data-bind='foreach: amigos()')
         article.sec4
-          img(data-bind='attr: {src: picture.data.url}')
+          img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-content=":)")
           footer.nombre(data-bind='text: name')
-      //
-         Relleno
     footer
       section.sec5
         section#atras.left
@@ -57,7 +55,13 @@ html
       "amigos": ko.observableArray([]),
       "males": ko.observableArray([]),
       "females": ko.observableArray([]),
-      "backup": ko.observableArray([])
+      "backup": ko.observableArray([]),
+      "muestra_info":function(obj){
+        $("#"+ obj.id).popover("show");
+      },
+      "ocultar_info":function(obj){
+        $("#"+ obj.id).popover("hide");
+      } 
       }
       ko.applyBindings(modelo);
     script.
@@ -122,3 +126,4 @@ html
       modelo.amigos(modelo.males());
       }
       });
+    script(type="text/javascript" src="/js/kiero.js")
