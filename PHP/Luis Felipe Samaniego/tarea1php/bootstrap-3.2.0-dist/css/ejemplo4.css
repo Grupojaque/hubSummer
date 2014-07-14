@@ -1,0 +1,41 @@
+#tabla1{
+
+	text-align: center;
+	color: deepskyblue;
+}
+
+
+#tabla2, #logout{
+
+	text-align: left;
+	color: lightseagreen;
+}
+
+#agregar, #noagregar{
+
+	text-align: center;
+	color: maroon;
+	border-color: maroon;
+}	
+
+#div1, #div2 {
+
+	text-align: center;
+	
+}	
+
+.boton{
+	color: orange;
+}
+
+#logout{
+
+	float: right;
+	color: lightseagreen;
+}
+
+#tabla3 {
+
+	text-align: left;
+	color: black;
+}
