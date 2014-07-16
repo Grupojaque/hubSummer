@@ -65,7 +65,7 @@ html
             info += "<p>Vive en: " + obj.location + "</p>";
         }else
           info = "Esta persona no tiene la aplicación";
-        $("#" + obj.id).popover({content:info, html:true}).popover("show");
+        $("#" + obj.id).popover({content:info, html:true,placement:'top'}).popover("show");
       },
       "ocultar_info":function(obj){
         $("#"+ obj.id).popover("hide");
