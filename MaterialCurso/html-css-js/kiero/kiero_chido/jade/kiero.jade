@@ -22,19 +22,18 @@ html
         article.txthed
           p.arriba Te quedan
           p.arriba 7 flechazos
-    section#sec2
+    section#sec3
       header#header2
-        article.left.mitad
+        article.mitad
           p#textoarriba
             | Manda un flechazo a quien mas te guste y descubre si eso persona kiere kontigo. No corres el riesgo de que se entere a menos que te seleccione a ti también.
-        article.left.mitad
+        article.mitad
           img#mujer.genero(src='/img/K_ic_femaleN.png')
           img#hombre.genero(src='/img/K_ic_maleN.png')
           input#buscador(placeholder='Buscar')
-    section#sec3
       section.contenedor(data-bind='foreach: amigos()')
         article.sec4
-          img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-content=":)")
+          img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="")
           footer.nombre(data-bind='text: name')
     footer
       section.sec5
@@ -57,7 +56,16 @@ html
       "females": ko.observableArray([]),
       "backup": ko.observableArray([]),
       "muestra_info":function(obj){
-        $("#"+ obj.id).popover("show");
+        var info = "";
+        if(obj.tiene_app){
+          info = "<p>Nombre: " + obj.name + "</p>";
+          if(obj.gender)
+            info += "<p>Sexo: " + obj.gender + "</p>";
+          if(obj.location)
+            info += "<p>Vive en: " + obj.location + "</p>";
+        }else
+          info = "Esta persona no tiene la aplicación";
+        $("#" + obj.id).popover({content:info, html:true}).popover("show");
       },
       "ocultar_info":function(obj){
         $("#"+ obj.id).popover("hide");
@@ -75,8 +83,10 @@ html
       FB.getLoginStatus(function(response) {
       if(response.status == "not_authorized" || response.status == "unknown")
       window.location = window.location.origin;
-      FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender)", function(response){
+      FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender,hometown,location)", function(response){
       var mi_usuario = {nombre: response.name, id: response.id, foto: response.picture.data.url};
+      for(var i = 0; i < response.friends.data.length; i++)
+        response.friends.data[i].tiene_app = true;
       var amigos = response.friends.data.concat(response.invitable_friends.data);
       modelo.usuario(mi_usuario);
       modelo.amigos(amigos);

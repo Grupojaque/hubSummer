@@ -30,10 +30,7 @@ body:hover {
   width: 100%;
 }
 #erbut {
-  background: #00f;
   color: #fff;
-  height: 30px;
-  width: 150px;
   margin: calc((50% - 30px) / 2) auto 0 auto;
   padding: 5px;
   border-radius: 5px;
