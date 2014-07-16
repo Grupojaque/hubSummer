@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+    <button id="mailgun">Enviar mensaje</button>
+
+<script>
+$("#mailgun").click(function (){
+     	{
+     		$.ajax({
+     			url: 'http://localhost:9000/mailgun',
+             	type: 'POST',
+             	data: {
+                 	from: 'Miguel Carvajal <miguel.carvajal@grupojaque.com>',
+                 	to: 'hubsummer2014@googlegroups.com',
+                 	subject: 'Correo de prueba con Mailgun',
+                 	text: 'Saludos.'
+             	},
+             	success: function (data) { console.log(data); }
+         	});
+</script>
+
+</body>
+</html>
