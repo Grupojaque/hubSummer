@@ -50,27 +50,27 @@ html
     script.
       /* Definir modelo para Knockout */
       var modelo = {
-      "usuario": ko.observable({}),
-      "amigos": ko.observableArray([]),
-      "males": ko.observableArray([]),
-      "females": ko.observableArray([]),
-      "backup": ko.observableArray([]),
-      "muestra_info":function(obj){
-        var info = "";
-        if(obj.tiene_app){
-          info = "<p>Nombre: " + obj.name + "</p>";
-          if(obj.gender)
-            info += "<p>Sexo: " + obj.gender + "</p>";
-          if(obj.location)
-            info += "<p>Vive en: " + obj.location + "</p>";
-        }else
-          info = "Esta persona no tiene la aplicación";
-        $("#" + obj.id).popover({content:info, html:true,placement:'top'}).popover("show");
-        $(".popover .arrow").css("top","");
-      },
-      "ocultar_info":function(obj){
-        $("#"+ obj.id).popover("hide");
-      } 
+        "usuario": ko.observable({}),
+        "amigos": ko.observableArray([]),
+        "males": ko.observableArray([]),
+        "females": ko.observableArray([]),
+        "backup": ko.observableArray([]),
+        "muestra_info":function(obj){
+          var info = "";
+          if(obj.tiene_app){
+            info = "<p>Nombre: " + obj.name + "</p>";
+            if(obj.gender)
+              info += "<p>Sexo: " + obj.gender + "</p>";
+            if(obj.location)
+              info += "<p>Vive en: " + obj.location + "</p>";
+          }else
+            info = "Esta persona no tiene la aplicación";
+          $("#" + obj.id).popover({content:info, html:true,placement:'top'}).popover("show");
+          $(".popover .arrow").css("top","");
+        },
+        "ocultar_info":function(obj){
+          $("#"+ obj.id).popover("hide");
+        } 
       }
       ko.applyBindings(modelo);
     script.
