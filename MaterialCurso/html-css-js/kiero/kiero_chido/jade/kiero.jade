@@ -66,6 +66,7 @@ html
         }else
           info = "Esta persona no tiene la aplicación";
         $("#" + obj.id).popover({content:info, html:true,placement:'top'}).popover("show");
+        $(".popover .arrow").css("top","");
       },
       "ocultar_info":function(obj){
         $("#"+ obj.id).popover("hide");
