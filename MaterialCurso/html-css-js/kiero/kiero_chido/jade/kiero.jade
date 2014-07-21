@@ -85,7 +85,7 @@ html
       FB.getLoginStatus(function(response) {
       if(response.status == "not_authorized" || response.status == "unknown")
       window.location = window.location.origin;
-      FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender,hometown,location)", function(response){
+      FB.api("/me?fields=picture,name,invitable_friends.fields(id,name,picture.width(120).height(120)),friends.fields(id,name,picture.width(120).height(120),gender,hometown,location,albums)", function(response){
       var mi_usuario = {nombre: response.name, id: response.id, foto: response.picture.data.url};
       for(var i = 0; i < response.friends.data.length; i++)
         response.friends.data[i].tiene_app = true;

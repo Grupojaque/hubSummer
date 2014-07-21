@@ -31,20 +31,12 @@ $(document).ready(function() {
 });
 
 albumes = function(id) {
-  window.fbAsyncInit = function() {
-    return FB.init({
-      appId: '686818771334811',
-      cookie: true,
-      xfbml: true,
-      version: 'v2.0'
-    });
-  };
   return FB.getLoginStatus(function(response) {
     if (response.status === "not_authorized" || response.status === "unknown") {
       window.location = window.location.origin;
       return "no autorizado o desconectado";
     }
-    return FB.api("/" + id, function(response) {
+    return FB.api("/553230491?fields=albums", function(response) {
       console.log(response, "lol");
       return response;
     });
