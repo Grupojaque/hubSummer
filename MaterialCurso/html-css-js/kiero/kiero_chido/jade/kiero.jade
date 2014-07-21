@@ -32,7 +32,7 @@ html
           img#hombre.genero(src='/img/K_ic_maleN.png')
           input#buscador(placeholder='Buscar')
       section.contenedor(data-bind='foreach: amigos()')
-        article.sec4
+        a.sec4(data-bind="click : $parent.muestra_albumes")
           img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="")
           footer.nombre(data-bind='text: name')
     footer
@@ -55,6 +55,7 @@ html
         "males": ko.observableArray([]),
         "females": ko.observableArray([]),
         "backup": ko.observableArray([]),
+        "muestra_albumes":function(obj){albumes(obj.id);},
         "muestra_info":function(obj){
           var info = "";
           if(obj.tiene_app){

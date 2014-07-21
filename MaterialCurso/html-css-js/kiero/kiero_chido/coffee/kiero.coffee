@@ -11,5 +11,15 @@ $(document).ready ->
                         else
                                 if i.name.toUpperCase().indexOf(texto) isnt -1
                                         modelo.amigos.push i
+albumes = (id) ->
+        FB.getLoginStatus (response) ->
+                if(response.status == "not_authorized" || response.status == "unknown")
+                        window.location = window.location.origin
+                        return "no autorizado o desconectado"
+                
+                FB.api "/#{id}"
+                ,(response) ->
+                        console.log response , "lol"
+                        return response       
             
                 

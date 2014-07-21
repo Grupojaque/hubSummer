@@ -71,7 +71,7 @@ body > #header .txthed {
   display: inline-block;
   min-width: 350px;
 }
-@media screen and (max-width: 1064px) {
+@media screen and (max-width:1064px) {
   .mitad {
     margin: 0px auto;
     float: none;
