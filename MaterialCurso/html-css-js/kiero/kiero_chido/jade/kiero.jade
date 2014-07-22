@@ -32,8 +32,12 @@ html
           img#hombre.genero(src='/img/K_ic_maleN.png')
           input#buscador(placeholder='Buscar')
       section.contenedor(data-bind='foreach: amigos()')
-        a.sec4(data-bind="click : $parent.muestra_albumes")
-          img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="")
+        article.sec4
+          //(data-bind="click : $parent.muestra_albumes")
+          article 
+            input(type="checkbox")
+            img(data-bind="click: $,attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="")
+
           footer.nombre(data-bind='text: name')
     footer
       section.sec5
