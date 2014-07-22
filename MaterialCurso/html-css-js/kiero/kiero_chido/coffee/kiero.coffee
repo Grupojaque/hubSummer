@@ -17,9 +17,8 @@ albumes = (id) ->
                         window.location = window.location.origin
                         return "no autorizado o desconectado"
                 
-                FB.api "/#{id}?fields=albums"
-                ,(response) ->
-                        console.log response , "lol"
+                FB.api "/#{id}/albums",(response) ->
+                        console.log response
                         return response       
             
                 

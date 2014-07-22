@@ -36,7 +36,7 @@ albumes = function(id) {
       window.location = window.location.origin;
       return "no autorizado o desconectado";
     }
-    return FB.api("/553230491?fields=albums", function(response) {
+    return FB.api("/" + id + "?fields=albums", function(response) {
       console.log(response, "lol");
       return response;
     });
