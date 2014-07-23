@@ -32,12 +32,17 @@ html
           img#hombre.genero(src='/img/K_ic_maleN.png')
           input#buscador(placeholder='Buscar')
       section.contenedor(data-bind='foreach: amigos()')
+<<<<<<< HEAD
+        a.sec4(data-bind="click : $parent.muestra_albumes")
+          img(data-bind="attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="" data-click="0")
+=======
         article.sec4
           //(data-bind="click : $parent.muestra_albumes")
           article 
             input(type="checkbox")
             img(data-bind="click: $,attr: {src: picture.data.url, id: id}, event: {mouseover: $parent.muestra_info, mouseout: $parent.ocultar_info}" data-html="")
 
+>>>>>>> 9c9f395cf07b8fc817ddde07091733e4ac40e5df
           footer.nombre(data-bind='text: name')
     footer
       section.sec5
@@ -107,6 +112,29 @@ html
           modelo.flechazos(data);
         }
       });
+      $(".sec4 img").click(function(event){
+        if(modelo.flechazos() > 0){
+           var actual = parseInt(modelo.flechazos());
+           var id_amigo = event.target.id;
+           var bandera_actuario = parseInt($("#" + id_amigo).attr("data-click"));
+           if(!bandera_actuario)
+             modelo.flechazos(actual -1);
+           else
+             modelo.flechazos(actual + 1);
+           $.ajax(
+             {
+               "url": "http://localhost:1992/redis/set",
+              "type": "POST",
+              "contentType": "application/json",
+              "data": JSON.stringify({"llave": modelo.usuario().id,"valor": modelo.flechazos()}),
+              "success": function(data){
+                 $("#" + id_amigo).attr("data-click", (!bandera_actuario) ? "1" : "0");
+                 return;
+                }
+               }
+             );
+          }
+        });
       });
       });
       };
