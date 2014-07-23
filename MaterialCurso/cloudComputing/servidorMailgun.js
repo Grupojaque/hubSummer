@@ -1,9 +1,14 @@
 var express=require('express');
 app=express();
 
+var 
+
 var api_key = 'key-5wds68amszmbnm6h98xmx3m0q5f0i576';
 var domain = 'sandbox6f1d638aab7c41bcaec841ef13e17bdd.mailgun.org';
-var mailgun = require('mailgun-js')(api_key,domain);
+var Mailgun = require('mailgun-js');
+
+var mailgun = new Mailgun({apiKey: api_key, domain: domain});
+
 
 app.post('/mailgun', 
         function(request, response) 
