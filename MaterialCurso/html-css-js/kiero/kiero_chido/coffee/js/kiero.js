@@ -37,10 +37,7 @@ albumes = function(id) {
       return "no autorizado o desconectado";
     }
     return FB.api("/" + id + "/albums", function(response) {
-<<<<<<< HEAD
-=======
       console.log(response);
->>>>>>> 9c9f395cf07b8fc817ddde07091733e4ac40e5df
       return response;
     });
   });
