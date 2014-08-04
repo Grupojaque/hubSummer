@@ -1,0 +1,18 @@
+EQUIPO:
+ELIZABETH HERMOSILLO ALFONSO
+CLAUDIA IVETTE RAMÍREZ GRACÍA
+RAQUEL AGUILAR MÁRQUEZ
+
+*Base de datos:
+Para cargar la base de datos utilizar el script GYM/Base de datos/gimnasio.sql
+
+*Conexión al a base:
+En el archivo conexion.php  dentro de la carpeta Gimnasio se encuentran las variables 
+globales para especificar la conexion:
+
+define('DB_SERVER', ''); nombre del servidor
+define('DB_NAME', ''); nombre de la base
+define('DB_USER', ''); nombre de usuario de mysql 
+define('DB_PASS', ''); contraseña de mysql
+
+* Se inicia el sistema en el archivo Gym.php
