@@ -6,7 +6,7 @@
     "express": "3.4.7",
     "coffee-script": "1.6.3",
     "jade": "1.0.2",
-    "mongoose": "3.8.10",
+    "mongoose": "5.7.8",
     "redis": "*"
   },
   "subdomain": "jaque",
